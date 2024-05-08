@@ -13,4 +13,11 @@
             Plugin command for A_start
         </description>
     </class>
+    <class name="rrt_start"
+        type="search_map::rrt::RRTStart"
+        base_class_type="search_map::AlgorithmBase">
+        <description>
+            Plugin command for RRTStart
+        </description>
+    </class>
 </library>

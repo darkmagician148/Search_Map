@@ -1,21 +1,15 @@
 {
     "configurations": [
         {
-            "browse": {
-                "databaseFilename": "${default}",
-                "limitSymbolsToIncludedHeaders": false
-            },
+            "name": "Linux",
             "includePath": [
-                "/opt/ros/humble/include/**",
-                "/home/tuan/CPP/include**",
-                "/usr/include/**",
-                "/home/tuan/CPP/include/algorithm/**"
+                "${workspaceFolder}/**"
             ],
-            "name": "ROS",
-            "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu11",
-            "cppStandard": "c++14"
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
         }
     ],
     "version": 4
