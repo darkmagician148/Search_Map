@@ -1,0 +1,29 @@
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:285[m[K:
+[01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:286:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krrt_start[m[K’ in namespace ‘[01m[Ksearch_map[m[K’ does not name a type
+  286 | PLUGINLIB_EXPORT_CLASS(search_map::[01;31m[Krrt_start[m[K::RRTStart,
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:286:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  286 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(search_map::rrt_start::RRTStart,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:286:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [32], const char [26])[m[K’
+  286 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(search_map::rrt_start::RRTStart,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:285[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:285[m[K:
+[01m[K/home/tuan/CPP/src/alogrithm/rrt_start.cpp:286:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  286 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(search_map::rrt_start::RRTStart,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:121: CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

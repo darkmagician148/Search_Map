@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o"
+  "CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o.d"
   "CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o"
   "CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o.d"
   "CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o"

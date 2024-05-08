@@ -33,9 +33,9 @@ namespace a_start{
     class AStart: public AlgorithmBase{
         private:
             static bool instance;
-            explicit AStart();
 
         public:
+            explicit AStart();
             ~AStart();
             using SharedPtr = std::shared_ptr<AStart>;
             SharedPtr getInstance();

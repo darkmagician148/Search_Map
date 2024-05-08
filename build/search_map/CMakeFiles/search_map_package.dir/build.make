@@ -100,10 +100,24 @@ CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuan/CPP/src/alogrithm/dijkstra.cpp -o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.s
 
+CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o: CMakeFiles/search_map_package.dir/flags.make
+CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o: ../../src/alogrithm/a_start.cpp
+CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o: CMakeFiles/search_map_package.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuan/CPP/build/search_map/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o -c /home/tuan/CPP/src/alogrithm/a_start.cpp
+
+CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tuan/CPP/src/alogrithm/a_start.cpp > CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.i
+
+CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuan/CPP/src/alogrithm/a_start.cpp -o CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.s
+
 CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o: CMakeFiles/search_map_package.dir/flags.make
 CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o: ../../src/alogrithm/rrt_start.cpp
 CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o: CMakeFiles/search_map_package.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuan/CPP/build/search_map/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuan/CPP/build/search_map/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o -c /home/tuan/CPP/src/alogrithm/rrt_start.cpp
 
 CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.i: cmake_force
@@ -118,6 +132,7 @@ CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.s: cmake_force
 search_map_package_OBJECTS = \
 "CMakeFiles/search_map_package.dir/src/data_interface.cpp.o" \
 "CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o" \
+"CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o" \
 "CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o"
 
 # External object files for target search_map_package
@@ -125,6 +140,7 @@ search_map_package_EXTERNAL_OBJECTS =
 
 libsearch_map_package.so: CMakeFiles/search_map_package.dir/src/data_interface.cpp.o
 libsearch_map_package.so: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o
+libsearch_map_package.so: CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o
 libsearch_map_package.so: CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o
 libsearch_map_package.so: CMakeFiles/search_map_package.dir/build.make
 libsearch_map_package.so: /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0
@@ -393,7 +409,7 @@ libsearch_map_package.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_gene
 libsearch_map_package.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libsearch_map_package.so: /opt/ros/humble/lib/librcutils.so
 libsearch_map_package.so: CMakeFiles/search_map_package.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuan/CPP/build/search_map/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libsearch_map_package.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuan/CPP/build/search_map/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libsearch_map_package.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_map_package.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

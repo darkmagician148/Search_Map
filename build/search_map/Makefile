@@ -250,6 +250,30 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/alogrithm/a_start.o: src/alogrithm/a_start.cpp.o
+.PHONY : src/alogrithm/a_start.o
+
+# target to build an object file
+src/alogrithm/a_start.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o
+.PHONY : src/alogrithm/a_start.cpp.o
+
+src/alogrithm/a_start.i: src/alogrithm/a_start.cpp.i
+.PHONY : src/alogrithm/a_start.i
+
+# target to preprocess a source file
+src/alogrithm/a_start.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.i
+.PHONY : src/alogrithm/a_start.cpp.i
+
+src/alogrithm/a_start.s: src/alogrithm/a_start.cpp.s
+.PHONY : src/alogrithm/a_start.s
+
+# target to generate assembly for a file
+src/alogrithm/a_start.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.s
+.PHONY : src/alogrithm/a_start.cpp.s
+
 src/alogrithm/dijkstra.o: src/alogrithm/dijkstra.cpp.o
 .PHONY : src/alogrithm/dijkstra.o
 
@@ -342,6 +366,9 @@ help:
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/alogrithm/a_start.o"
+	@echo "... src/alogrithm/a_start.i"
+	@echo "... src/alogrithm/a_start.s"
 	@echo "... src/alogrithm/dijkstra.o"
 	@echo "... src/alogrithm/dijkstra.i"
 	@echo "... src/alogrithm/dijkstra.s"

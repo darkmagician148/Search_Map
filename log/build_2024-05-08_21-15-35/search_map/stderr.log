@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:199[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = search_map::a_start::AStart; B = search_map::AlgorithmBase][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksearch_map::a_start::AStart::AStart()[m[K’ is private within this context
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:7:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+    7 |     [01;36m[KAStart[m[K::AStart(){}
+      |     [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:107: CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

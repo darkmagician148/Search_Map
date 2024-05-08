@@ -4,13 +4,9 @@
 namespace search_map{
 namespace a_start{
 
-    AStart::SharedPtr AStart::getInstance(){
-        instance = true;
-        return std::make_shared<AStart>();
-    }
-    AStart::~AStart(){
-        instance = false;
-    }
+    AStart::AStart(){}
+
+    AStart::~AStart(){}
     void AStart::initialize(const rclcpp::Node::WeakPtr&){
     }
 

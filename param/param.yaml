@@ -1,4 +1,4 @@
 search_map:
   ros__parameters:
-    algorithm: A_start
+    algorithm: rrt_start  # rrt_start dijkstra a_start
     map_file: /home/tuan/CPP/map/map.yaml

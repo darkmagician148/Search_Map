@@ -32,7 +32,7 @@ include_directories(include)
 add_library(${library_name} SHARED
   src/data_interface.cpp
   src/alogrithm/dijkstra.cpp
-  # src/alogrithm/a_start.cpp
+  src/alogrithm/a_start.cpp
   src/alogrithm/rrt_start.cpp
 )
 
