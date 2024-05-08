@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[0.029s] /usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0
+[0.046s] /usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks
+[0.059s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.061s] gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'
+[0.061s] /usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend
+[0.068s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[0.069s] cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target search_map_package[0m
+[0.101s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[0.101s] /usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build
+[0.116s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[0.116s] gmake[2]: Nothing to be done for 'CMakeFiles/search_map_package.dir/build'.
+[0.116s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[0.130s] [ 66%] Built target search_map_package
+[0.131s] /usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/depend
+[0.136s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[0.136s] cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map.dir/DependInfo.cmake --color=
+[0.149s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[0.149s] /usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/build
+[0.156s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[0.156s] gmake[2]: Nothing to be done for 'CMakeFiles/search_map.dir/build'.
+[0.156s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[0.167s] [100%] Built target search_map
+[0.168s] gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'
+[0.169s] /usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles 0
+[0.181s] Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[0.237s] Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map
+[0.249s] -- Install configuration: ""
+[0.250s] -- Execute custom install script
+[0.250s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/libsearch_map_package.so
+[0.251s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/a_start.hpp
+[0.251s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/dijkstra.hpp
+[0.251s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/rrt_start.hpp
+[0.251s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm_base.hpp
+[0.252s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//data_interface.hpp
+[0.252s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/geometry_utils.hpp
+[0.252s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/map_utils.hpp
+[0.252s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/math_utils.hpp
+[0.252s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/search_utils.hpp
+[0.253s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/search_map/search_map
+[0.253s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//launch/search_map.launch.py
+[0.253s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//param/param.yaml
+[0.254s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.pgm
+[0.254s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.yaml
+[0.254s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//search_algorithm_lib.xml
+[0.255s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/package_run_dependencies/search_map
+[0.255s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/parent_prefix_path/search_map
+[0.255s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.sh
+[0.256s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.dsv
+[0.256s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.sh
+[0.256s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.dsv
+[0.256s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.bash
+[0.257s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.sh
+[0.257s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.zsh
+[0.257s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.dsv
+[0.257s] -- Symlinking: /home/tuan/CPP/install/search_map/share/search_map/package.dsv
+[0.270s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/packages/search_map
+[0.270s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/search_map__pluginlib__plugin/search_map
+[0.270s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig.cmake
+[0.270s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig-version.cmake
+[0.270s] -- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/package.xml
+[0.273s] Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map

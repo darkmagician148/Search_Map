@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tuan/CPP -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/search_map
+[0.026s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.181s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.217s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.571s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.666s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.716s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.718s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.017s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.037s] -- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)
+[1.617s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.619s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.866s] -- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)
+[9.254s] -- Configuring done
+[9.257s] [31mCMake Error at CMakeLists.txt:31 (add_library):
+[9.257s]   Cannot find source file:
+[9.257s] 
+[9.257s]     src/data_interface.cpp
+[9.257s] 
+[9.258s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[9.258s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[9.258s] 
+[9.258s] [0m
+[9.259s] [31mCMake Error at CMakeLists.txt:50 (add_executable):
+[9.259s]   Cannot find source file:
+[9.259s] 
+[9.259s]     src/Main.cpp
+[9.259s] 
+[9.259s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[9.259s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[9.259s] 
+[9.259s] [0m
+[9.261s] [31mCMake Error at CMakeLists.txt:31 (add_library):
+[9.261s]   No SOURCES given to target: search_map_package
+[9.262s] 
+[9.262s] [0m
+[9.262s] [31mCMake Error at CMakeLists.txt:50 (add_executable):
+[9.262s]   No SOURCES given to target: search_map
+[9.262s] 
+[9.262s] [0m
+[9.262s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[9.270s] Invoked command in '/home/tuan/CPP/build/search_map' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tuan/CPP -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/search_map

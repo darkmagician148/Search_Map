@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.001158] (search_map) JobQueued: {'identifier': 'search_map', 'dependencies': OrderedDict()}
+[0.006609] (search_map) JobStarted: {'identifier': 'search_map'}
+[0.029805] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'cmake'}
+[0.032043] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'build'}
+[0.034010] (search_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuan/CPP/build/search_map', '--', '-j8', '-l8'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1046'), ('SYSTEMD_EXEC_PID', '1232'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3780'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:32906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1205,unix/tuan:/tmp/.ICE-unix/1205'), ('INVOCATION_ID', '7c3067ce427140259a25ac3a20a8c880'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1DXLN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:2c7af90a-e393-4d26-8127-abcb6e1fc645'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068406] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.100514] (-) TimerEvent: {}
+[0.111006] (search_map) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201443] (-) TimerEvent: {}
+[0.301846] (-) TimerEvent: {}
+[0.376658] (search_map) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.394111] (search_map) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.401991] (-) TimerEvent: {}
+[0.459153] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.466489] (search_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.483604] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.502131] (-) TimerEvent: {}
+[0.514471] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.556555] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.602360] (-) TimerEvent: {}
+[0.703024] (-) TimerEvent: {}
+[0.803515] (-) TimerEvent: {}
+[0.904015] (-) TimerEvent: {}
+[0.969411] (search_map) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.004155] (-) TimerEvent: {}
+[1.104529] (-) TimerEvent: {}
+[1.155103] (search_map) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.204680] (-) TimerEvent: {}
+[1.247680] (search_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.250426] (search_map) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.304817] (-) TimerEvent: {}
+[1.405141] (-) TimerEvent: {}
+[1.442443] (search_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.505281] (-) TimerEvent: {}
+[1.605620] (-) TimerEvent: {}
+[1.633302] (search_map) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.655933] (search_map) StdoutLine: {'line': b'-- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.705752] (-) TimerEvent: {}
+[1.806047] (-) TimerEvent: {}
+[1.906355] (-) TimerEvent: {}
+[2.006626] (-) TimerEvent: {}
+[2.106943] (-) TimerEvent: {}
+[2.207244] (-) TimerEvent: {}
+[2.307562] (-) TimerEvent: {}
+[2.407861] (-) TimerEvent: {}
+[2.422675] (search_map) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.424264] (search_map) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.507997] (-) TimerEvent: {}
+[2.608316] (-) TimerEvent: {}
+[2.708741] (-) TimerEvent: {}
+[2.759843] (search_map) StdoutLine: {'line': b'-- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)\n'}
+[2.808882] (-) TimerEvent: {}
+[2.909270] (-) TimerEvent: {}
+[3.009585] (-) TimerEvent: {}
+[3.110014] (-) TimerEvent: {}
+[3.210424] (-) TimerEvent: {}
+[3.310816] (-) TimerEvent: {}
+[3.411105] (-) TimerEvent: {}
+[3.511378] (-) TimerEvent: {}
+[3.611721] (-) TimerEvent: {}
+[3.712016] (-) TimerEvent: {}
+[3.812373] (-) TimerEvent: {}
+[3.912633] (-) TimerEvent: {}
+[4.012995] (-) TimerEvent: {}
+[4.113322] (-) TimerEvent: {}
+[4.213657] (-) TimerEvent: {}
+[4.313986] (-) TimerEvent: {}
+[4.414305] (-) TimerEvent: {}
+[4.415460] (search_map) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.514425] (-) TimerEvent: {}
+[4.614796] (-) TimerEvent: {}
+[4.715155] (-) TimerEvent: {}
+[4.815560] (-) TimerEvent: {}
+[4.916006] (-) TimerEvent: {}
+[5.016351] (-) TimerEvent: {}
+[5.116801] (-) TimerEvent: {}
+[5.217187] (-) TimerEvent: {}
+[5.317606] (-) TimerEvent: {}
+[5.418005] (-) TimerEvent: {}
+[5.518397] (-) TimerEvent: {}
+[5.618779] (-) TimerEvent: {}
+[5.719247] (-) TimerEvent: {}
+[5.819823] (-) TimerEvent: {}
+[5.920244] (-) TimerEvent: {}
+[6.020940] (-) TimerEvent: {}
+[6.121535] (-) TimerEvent: {}
+[6.221980] (-) TimerEvent: {}
+[6.322391] (-) TimerEvent: {}
+[6.422809] (-) TimerEvent: {}
+[6.523187] (-) TimerEvent: {}
+[6.623519] (-) TimerEvent: {}
+[6.723863] (-) TimerEvent: {}
+[6.824237] (-) TimerEvent: {}
+[6.924611] (-) TimerEvent: {}
+[7.024982] (-) TimerEvent: {}
+[7.125285] (-) TimerEvent: {}
+[7.225580] (-) TimerEvent: {}
+[7.326326] (-) TimerEvent: {}
+[7.426901] (-) TimerEvent: {}
+[7.527428] (-) TimerEvent: {}
+[7.627834] (-) TimerEvent: {}
+[7.728180] (-) TimerEvent: {}
+[7.828524] (-) TimerEvent: {}
+[7.928850] (-) TimerEvent: {}
+[8.029217] (-) TimerEvent: {}
+[8.129518] (-) TimerEvent: {}
+[8.229804] (-) TimerEvent: {}
+[8.330233] (-) TimerEvent: {}
+[8.430531] (-) TimerEvent: {}
+[8.530912] (-) TimerEvent: {}
+[8.631266] (-) TimerEvent: {}
+[8.731677] (-) TimerEvent: {}
+[8.832050] (-) TimerEvent: {}
+[8.932393] (-) TimerEvent: {}
+[9.032730] (-) TimerEvent: {}
+[9.133100] (-) TimerEvent: {}
+[9.233419] (-) TimerEvent: {}
+[9.333778] (-) TimerEvent: {}
+[9.434083] (-) TimerEvent: {}
+[9.534381] (-) TimerEvent: {}
+[9.634708] (-) TimerEvent: {}
+[9.735016] (-) TimerEvent: {}
+[9.835394] (-) TimerEvent: {}
+[9.935720] (-) TimerEvent: {}
+[10.036102] (-) TimerEvent: {}
+[10.136418] (-) TimerEvent: {}
+[10.236726] (-) TimerEvent: {}
+[10.337039] (-) TimerEvent: {}
+[10.437348] (-) TimerEvent: {}
+[10.537616] (-) TimerEvent: {}
+[10.637918] (-) TimerEvent: {}
+[10.738243] (-) TimerEvent: {}
+[10.838562] (-) TimerEvent: {}
+[10.938856] (-) TimerEvent: {}
+[11.039116] (-) TimerEvent: {}
+[11.139443] (-) TimerEvent: {}
+[11.239698] (-) TimerEvent: {}
+[11.340006] (-) TimerEvent: {}
+[11.440384] (-) TimerEvent: {}
+[11.540793] (-) TimerEvent: {}
+[11.641145] (-) TimerEvent: {}
+[11.741544] (-) TimerEvent: {}
+[11.841817] (-) TimerEvent: {}
+[11.942121] (-) TimerEvent: {}
+[12.042509] (-) TimerEvent: {}
+[12.142928] (-) TimerEvent: {}
+[12.243259] (-) TimerEvent: {}
+[12.343552] (-) TimerEvent: {}
+[12.443900] (-) TimerEvent: {}
+[12.544225] (-) TimerEvent: {}
+[12.644571] (-) TimerEvent: {}
+[12.744880] (-) TimerEvent: {}
+[12.845185] (-) TimerEvent: {}
+[12.945514] (-) TimerEvent: {}
+[13.045883] (-) TimerEvent: {}
+[13.146264] (-) TimerEvent: {}
+[13.246641] (-) TimerEvent: {}
+[13.346922] (-) TimerEvent: {}
+[13.447234] (-) TimerEvent: {}
+[13.547543] (-) TimerEvent: {}
+[13.647847] (-) TimerEvent: {}
+[13.748160] (-) TimerEvent: {}
+[13.811164] (search_map) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.848290] (-) TimerEvent: {}
+[13.948640] (-) TimerEvent: {}
+[13.988895] (search_map) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.990521] (search_map) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tuan/CPP/include\n'}
+[13.990894] (search_map) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.000481] (search_map) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.016157] (search_map) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.024260] (search_map) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.048779] (-) TimerEvent: {}
+[14.086792] (search_map) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.087013] (search_map) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.095060] (search_map) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.096342] (search_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.148906] (-) TimerEvent: {}
+[14.242033] (search_map) StdoutLine: {'line': b'-- Generating done\n'}
+[14.245120] (search_map) StdoutLine: {'line': b'-- Build files have been written to: /home/tuan/CPP/build/search_map\n'}
+[14.249016] (-) TimerEvent: {}
+[14.258114] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks\n'}
+[14.271849] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[14.274013] (search_map) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[14.274189] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend\n'}
+[14.277260] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[14.277422] (search_map) StdoutLine: {'line': b'cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=\n'}
+[14.293842] (search_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target search_map_package\x1b[0m\n'}
+[14.311495] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[14.311952] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build\n'}
+[14.323707] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[14.335463] (search_map) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o\x1b[0m\n'}
+[14.336581] (search_map) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/data_interface.cpp.o\x1b[0m\n'}
+[14.336850] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o -c /home/tuan/CPP/src/alogrithm/rrt_start.cpp\n'}
+[14.337160] (search_map) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o\x1b[0m\n'}
+[14.338271] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/data_interface.cpp.o -MF CMakeFiles/search_map_package.dir/src/data_interface.cpp.o.d -o CMakeFiles/search_map_package.dir/src/data_interface.cpp.o -c /home/tuan/CPP/src/data_interface.cpp\n'}
+[14.338618] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -c /home/tuan/CPP/src/alogrithm/dijkstra.cpp\n'}
+[14.349129] (-) TimerEvent: {}
+[14.449485] (-) TimerEvent: {}
+[14.549837] (-) TimerEvent: {}
+[14.650244] (-) TimerEvent: {}
+[14.750608] (-) TimerEvent: {}
+[14.854900] (-) TimerEvent: {}
+[14.955400] (-) TimerEvent: {}
+[15.055884] (-) TimerEvent: {}
+[15.156266] (-) TimerEvent: {}
+[15.256578] (-) TimerEvent: {}
+[15.356920] (-) TimerEvent: {}
+[15.457242] (-) TimerEvent: {}
+[15.557641] (-) TimerEvent: {}
+[15.658079] (-) TimerEvent: {}
+[15.758468] (-) TimerEvent: {}
+[15.858865] (-) TimerEvent: {}
+[15.959284] (-) TimerEvent: {}
+[16.059599] (-) TimerEvent: {}
+[16.159979] (-) TimerEvent: {}
+[16.260416] (-) TimerEvent: {}
+[16.360897] (-) TimerEvent: {}
+[16.461378] (-) TimerEvent: {}
+[16.561765] (-) TimerEvent: {}
+[16.662271] (-) TimerEvent: {}
+[16.762653] (-) TimerEvent: {}
+[16.863001] (-) TimerEvent: {}
+[16.963293] (-) TimerEvent: {}
+[17.063719] (-) TimerEvent: {}
+[17.164320] (-) TimerEvent: {}
+[17.264726] (-) TimerEvent: {}
+[17.365139] (-) TimerEvent: {}
+[17.465527] (-) TimerEvent: {}
+[17.565866] (-) TimerEvent: {}
+[17.666258] (-) TimerEvent: {}
+[17.766657] (-) TimerEvent: {}
+[17.867119] (-) TimerEvent: {}
+[17.967500] (-) TimerEvent: {}
+[18.067915] (-) TimerEvent: {}
+[18.168303] (-) TimerEvent: {}
+[18.268730] (-) TimerEvent: {}
+[18.369125] (-) TimerEvent: {}
+[18.469565] (-) TimerEvent: {}
+[18.570050] (-) TimerEvent: {}
+[18.670457] (-) TimerEvent: {}
+[18.770848] (-) TimerEvent: {}
+[18.871317] (-) TimerEvent: {}
+[18.972272] (-) TimerEvent: {}
+[19.072699] (-) TimerEvent: {}
+[19.173102] (-) TimerEvent: {}
+[19.194339] (search_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[19.194625] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[19.194732] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[19.194866] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[19.194962] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[19.195054] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[19.195142] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[19.195229] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[19.195314] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[19.195405] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[19.195491] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[19.195664] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/include/algorithm_base.hpp:7\x1b[m\x1b[K,\n'}
+[19.195833] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:8\x1b[m\x1b[K,\n'}
+[19.195928] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1\x1b[m\x1b[K:\n'}
+[19.196019] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid search_map::dijkstra::Dijkstra::updatePointAroud(search_map::dijkstra::DijkstraCell::SharedPtr&, std::vector<long unsigned int>&, uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.196130] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:112:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.196230] (search_map) StderrLine: {'line': b'  112 |         RCLCPP_ERROR(node_->get_logger(), \x1b[01;35m\x1b[K"%d"\x1b[m\x1b[K, \x1b[32m\x1b[Khash_cell.size()\x1b[m\x1b[K);\n'}
+[19.196326] (search_map) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.196513] (search_map) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.196628] (search_map) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kstd::vector<long unsigned int>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[19.196721] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:112:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[19.196816] (search_map) StderrLine: {'line': b'  112 |         RCLCPP_ERROR(node_->get_logger(), "\x1b[01;36m\x1b[K%d\x1b[m\x1b[K", hash_cell.size());\n'}
+[19.196906] (search_map) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[19.196999] (search_map) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[19.197087] (search_map) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[19.197174] (search_map) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[19.273229] (-) TimerEvent: {}
+[19.373867] (-) TimerEvent: {}
+[19.474309] (-) TimerEvent: {}
+[19.574700] (-) TimerEvent: {}
+[19.675104] (-) TimerEvent: {}
+[19.775506] (-) TimerEvent: {}
+[19.875904] (-) TimerEvent: {}
+[19.976344] (-) TimerEvent: {}
+[20.076972] (-) TimerEvent: {}
+[20.177972] (-) TimerEvent: {}
+[20.278366] (-) TimerEvent: {}
+[20.379377] (-) TimerEvent: {}
+[20.479834] (-) TimerEvent: {}
+[20.580376] (-) TimerEvent: {}
+[20.680842] (-) TimerEvent: {}
+[20.781381] (-) TimerEvent: {}
+[20.881726] (-) TimerEvent: {}
+[20.982230] (-) TimerEvent: {}
+[21.082655] (-) TimerEvent: {}
+[21.182988] (-) TimerEvent: {}
+[21.283346] (-) TimerEvent: {}
+[21.383680] (-) TimerEvent: {}
+[21.484090] (-) TimerEvent: {}
+[21.584434] (-) TimerEvent: {}
+[21.684871] (-) TimerEvent: {}
+[21.785303] (-) TimerEvent: {}
+[21.885672] (-) TimerEvent: {}
+[21.986015] (-) TimerEvent: {}
+[22.086389] (-) TimerEvent: {}
+[22.186774] (-) TimerEvent: {}
+[22.287157] (-) TimerEvent: {}
+[22.387551] (-) TimerEvent: {}
+[22.487952] (-) TimerEvent: {}
+[22.588341] (-) TimerEvent: {}
+[22.688712] (-) TimerEvent: {}
+[22.789095] (-) TimerEvent: {}
+[22.889507] (-) TimerEvent: {}
+[22.989813] (-) TimerEvent: {}
+[23.090218] (-) TimerEvent: {}
+[23.190578] (-) TimerEvent: {}
+[23.290941] (-) TimerEvent: {}
+[23.391234] (-) TimerEvent: {}
+[23.491548] (-) TimerEvent: {}
+[23.591875] (-) TimerEvent: {}
+[23.692201] (-) TimerEvent: {}
+[23.792510] (-) TimerEvent: {}
+[23.892885] (-) TimerEvent: {}
+[23.993284] (-) TimerEvent: {}
+[24.093692] (-) TimerEvent: {}
+[24.194088] (-) TimerEvent: {}
+[24.294443] (-) TimerEvent: {}
+[24.394849] (-) TimerEvent: {}
+[24.495156] (-) TimerEvent: {}
+[24.595539] (-) TimerEvent: {}
+[24.695852] (-) TimerEvent: {}
+[24.796126] (-) TimerEvent: {}
+[24.896446] (-) TimerEvent: {}
+[24.996721] (-) TimerEvent: {}
+[25.097071] (-) TimerEvent: {}
+[25.197432] (-) TimerEvent: {}
+[25.297784] (-) TimerEvent: {}
+[25.398102] (-) TimerEvent: {}
+[25.498451] (-) TimerEvent: {}
+[25.598802] (-) TimerEvent: {}
+[25.699139] (-) TimerEvent: {}
+[25.799479] (-) TimerEvent: {}
+[25.899922] (-) TimerEvent: {}
+[26.000266] (-) TimerEvent: {}
+[26.100626] (-) TimerEvent: {}
+[26.200957] (-) TimerEvent: {}
+[26.301271] (-) TimerEvent: {}
+[26.401584] (-) TimerEvent: {}
+[26.501873] (-) TimerEvent: {}
+[26.602175] (-) TimerEvent: {}
+[26.702488] (-) TimerEvent: {}
+[26.802853] (-) TimerEvent: {}
+[26.903207] (-) TimerEvent: {}
+[27.003549] (-) TimerEvent: {}
+[27.103864] (-) TimerEvent: {}
+[27.204320] (-) TimerEvent: {}
+[27.304658] (-) TimerEvent: {}
+[27.405000] (-) TimerEvent: {}
+[27.505322] (-) TimerEvent: {}
+[27.605703] (-) TimerEvent: {}
+[27.706101] (-) TimerEvent: {}
+[27.806551] (-) TimerEvent: {}
+[27.906933] (-) TimerEvent: {}
+[28.007401] (-) TimerEvent: {}
+[28.107868] (-) TimerEvent: {}
+[28.208280] (-) TimerEvent: {}
+[28.308679] (-) TimerEvent: {}
+[28.409131] (-) TimerEvent: {}
+[28.509450] (-) TimerEvent: {}
+[28.609895] (-) TimerEvent: {}
+[28.710301] (-) TimerEvent: {}
+[28.810832] (-) TimerEvent: {}
+[28.911216] (-) TimerEvent: {}
+[29.011514] (-) TimerEvent: {}
+[29.111835] (-) TimerEvent: {}
+[29.212137] (-) TimerEvent: {}
+[29.312580] (-) TimerEvent: {}
+[29.412990] (-) TimerEvent: {}
+[29.513323] (-) TimerEvent: {}
+[29.613636] (-) TimerEvent: {}
+[29.714031] (-) TimerEvent: {}
+[29.814520] (-) TimerEvent: {}
+[29.914958] (-) TimerEvent: {}
+[30.015340] (-) TimerEvent: {}
+[30.115885] (-) TimerEvent: {}
+[30.216702] (-) TimerEvent: {}
+[30.317082] (-) TimerEvent: {}
+[30.417764] (-) TimerEvent: {}
+[30.518197] (-) TimerEvent: {}
+[30.618632] (-) TimerEvent: {}
+[30.719079] (-) TimerEvent: {}
+[30.819571] (-) TimerEvent: {}
+[30.919897] (-) TimerEvent: {}
+[31.020156] (-) TimerEvent: {}
+[31.120494] (-) TimerEvent: {}
+[31.220853] (-) TimerEvent: {}
+[31.321202] (-) TimerEvent: {}
+[31.421498] (-) TimerEvent: {}
+[31.521817] (-) TimerEvent: {}
+[31.622126] (-) TimerEvent: {}
+[31.722433] (-) TimerEvent: {}
+[31.822823] (-) TimerEvent: {}
+[31.923189] (-) TimerEvent: {}
+[32.023503] (-) TimerEvent: {}
+[32.123867] (-) TimerEvent: {}
+[32.224183] (-) TimerEvent: {}
+[32.324512] (-) TimerEvent: {}
+[32.424831] (-) TimerEvent: {}
+[32.525191] (-) TimerEvent: {}
+[32.625506] (-) TimerEvent: {}
+[32.725806] (-) TimerEvent: {}
+[32.826173] (-) TimerEvent: {}
+[32.926524] (-) TimerEvent: {}
+[33.026912] (-) TimerEvent: {}
+[33.127344] (-) TimerEvent: {}
+[33.227922] (-) TimerEvent: {}
+[33.328242] (-) TimerEvent: {}
+[33.428562] (-) TimerEvent: {}
+[33.528861] (-) TimerEvent: {}
+[33.629160] (-) TimerEvent: {}
+[33.729481] (-) TimerEvent: {}
+[33.829807] (-) TimerEvent: {}
+[33.930116] (-) TimerEvent: {}
+[34.030420] (-) TimerEvent: {}
+[34.130763] (-) TimerEvent: {}
+[34.231127] (-) TimerEvent: {}
+[34.331557] (-) TimerEvent: {}
+[34.431944] (-) TimerEvent: {}
+[34.532336] (-) TimerEvent: {}
+[34.632702] (-) TimerEvent: {}
+[34.733051] (-) TimerEvent: {}
+[34.833388] (-) TimerEvent: {}
+[34.933719] (-) TimerEvent: {}
+[35.034105] (-) TimerEvent: {}
+[35.134471] (-) TimerEvent: {}
+[35.234828] (-) TimerEvent: {}
+[35.335162] (-) TimerEvent: {}
+[35.435482] (-) TimerEvent: {}
+[35.535826] (-) TimerEvent: {}
+[35.636158] (-) TimerEvent: {}
+[35.736488] (-) TimerEvent: {}
+[35.836805] (-) TimerEvent: {}
+[35.937153] (-) TimerEvent: {}
+[36.037482] (-) TimerEvent: {}
+[36.137807] (-) TimerEvent: {}
+[36.238103] (-) TimerEvent: {}
+[36.338440] (-) TimerEvent: {}
+[36.438826] (-) TimerEvent: {}
+[36.539174] (-) TimerEvent: {}
+[36.639518] (-) TimerEvent: {}
+[36.739828] (-) TimerEvent: {}
+[36.840104] (-) TimerEvent: {}
+[36.940464] (-) TimerEvent: {}
+[37.040803] (-) TimerEvent: {}
+[37.141148] (-) TimerEvent: {}
+[37.241456] (-) TimerEvent: {}
+[37.341726] (-) TimerEvent: {}
+[37.442135] (-) TimerEvent: {}
+[37.542425] (-) TimerEvent: {}
+[37.642837] (-) TimerEvent: {}
+[37.743141] (-) TimerEvent: {}
+[37.843480] (-) TimerEvent: {}
+[37.943932] (-) TimerEvent: {}
+[38.044265] (-) TimerEvent: {}
+[38.144592] (-) TimerEvent: {}
+[38.244948] (-) TimerEvent: {}
+[38.345406] (-) TimerEvent: {}
+[38.445828] (-) TimerEvent: {}
+[38.546156] (-) TimerEvent: {}
+[38.646462] (-) TimerEvent: {}
+[38.746726] (-) TimerEvent: {}
+[38.847046] (-) TimerEvent: {}
+[38.947337] (-) TimerEvent: {}
+[39.047694] (-) TimerEvent: {}
+[39.147999] (-) TimerEvent: {}
+[39.248366] (-) TimerEvent: {}
+[39.348667] (-) TimerEvent: {}
+[39.449021] (-) TimerEvent: {}
+[39.549321] (-) TimerEvent: {}
+[39.649603] (-) TimerEvent: {}
+[39.750012] (-) TimerEvent: {}
+[39.850623] (-) TimerEvent: {}
+[39.951155] (-) TimerEvent: {}
+[40.051464] (-) TimerEvent: {}
+[40.151789] (-) TimerEvent: {}
+[40.252144] (-) TimerEvent: {}
+[40.352599] (-) TimerEvent: {}
+[40.453205] (-) TimerEvent: {}
+[40.553576] (-) TimerEvent: {}
+[40.654482] (-) TimerEvent: {}
+[40.755101] (-) TimerEvent: {}
+[40.855588] (-) TimerEvent: {}
+[40.956194] (-) TimerEvent: {}
+[41.056786] (-) TimerEvent: {}
+[41.157578] (-) TimerEvent: {}
+[41.258158] (-) TimerEvent: {}
+[41.358480] (-) TimerEvent: {}
+[41.458885] (-) TimerEvent: {}
+[41.559246] (-) TimerEvent: {}
+[41.659851] (-) TimerEvent: {}
+[41.760352] (-) TimerEvent: {}
+[41.860704] (-) TimerEvent: {}
+[41.961117] (-) TimerEvent: {}
+[42.061498] (-) TimerEvent: {}
+[42.161965] (-) TimerEvent: {}
+[42.262461] (-) TimerEvent: {}
+[42.362872] (-) TimerEvent: {}
+[42.463253] (-) TimerEvent: {}
+[42.563638] (-) TimerEvent: {}
+[42.664003] (-) TimerEvent: {}
+[42.764383] (-) TimerEvent: {}
+[42.864868] (-) TimerEvent: {}
+[42.871735] (search_map) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libsearch_map_package.so\x1b[0m\n'}
+[42.873760] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/search_map_package.dir/link.txt --verbose=1\n'}
+[42.884726] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -fPIC -shared -Wl,-soname,libsearch_map_package.so -o libsearch_map_package.so CMakeFiles/search_map_package.dir/src/data_interface.cpp.o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o CMakeFiles/search_map_package.dir/src/alogrithm/rrt_start.cpp.o  -Wl,-rpath,/opt/ros/humble/lib /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0 /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libmap_server_core.so /opt/ros/humble/lib/libmap_io.so /opt/ros/humble/lib/libcomponent_manager.so /opt/ros/humble/lib/libclass_loader.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0 /opt/ros/humble/lib/libnav2_util_core.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2.so /opt/ros/humble/lib/libtf2_ros.so /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so /usr/lib/x86_64-linux-gnu/liborocos-kdl.so /opt/ros/humble/lib/libtf2_ros.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librclcpp_action.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/librcl_lifecycle.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcutils.so -ldl /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/librclcpp_lifecycle.so /opt/ros/humble/lib/librcl_lifecycle.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbondcpp.so /opt/ros/humble/lib/libbond__rosidl_generator_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbond__rosidl_generator_py.so /opt/ros/humble/lib/libbond__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /usr/lib/x86_64-linux-gnu/libpython3.10.so /usr/lib/x86_64-linux-gnu/libunwind.so /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread /usr/lib/x86_64-linux-gnu/libtinyxml2.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libmessage_filters.so /opt/ros/humble/lib/librclcpp_action.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/librcl_action.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libpython3.10.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libbond__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl \n'}
+[42.965012] (-) TimerEvent: {}
+[43.065350] (-) TimerEvent: {}
+[43.165663] (-) TimerEvent: {}
+[43.266029] (-) TimerEvent: {}
+[43.366423] (-) TimerEvent: {}
+[43.466900] (-) TimerEvent: {}
+[43.567422] (-) TimerEvent: {}
+[43.668087] (-) TimerEvent: {}
+[43.768603] (-) TimerEvent: {}
+[43.868987] (-) TimerEvent: {}
+[43.969343] (-) TimerEvent: {}
+[44.069818] (-) TimerEvent: {}
+[44.170348] (-) TimerEvent: {}
+[44.270934] (-) TimerEvent: {}
+[44.371729] (-) TimerEvent: {}
+[44.472437] (-) TimerEvent: {}
+[44.572814] (-) TimerEvent: {}
+[44.673180] (-) TimerEvent: {}
+[44.773557] (-) TimerEvent: {}
+[44.873866] (-) TimerEvent: {}
+[44.974166] (-) TimerEvent: {}
+[45.074506] (-) TimerEvent: {}
+[45.175036] (-) TimerEvent: {}
+[45.275520] (-) TimerEvent: {}
+[45.375862] (-) TimerEvent: {}
+[45.476218] (-) TimerEvent: {}
+[45.576712] (-) TimerEvent: {}
+[45.677034] (-) TimerEvent: {}
+[45.720290] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[45.731537] (search_map) StdoutLine: {'line': b'[ 66%] Built target search_map_package\n'}
+[45.732959] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/depend\n'}
+[45.735871] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[45.736060] (search_map) StdoutLine: {'line': b'cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map.dir/DependInfo.cmake --color=\n'}
+[45.749592] (search_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target search_map\x1b[0m\n'}
+[45.759704] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[45.759963] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/build\n'}
+[45.767561] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[45.777160] (-) TimerEvent: {}
+[45.778010] (search_map) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/search_map.dir/src/Main.cpp.o\x1b[0m\n'}
+[45.779483] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map.dir/src/Main.cpp.o -MF CMakeFiles/search_map.dir/src/Main.cpp.o.d -o CMakeFiles/search_map.dir/src/Main.cpp.o -c /home/tuan/CPP/src/Main.cpp\n'}
+[45.877263] (-) TimerEvent: {}
+[45.977550] (-) TimerEvent: {}
+[46.077907] (-) TimerEvent: {}
+[46.178236] (-) TimerEvent: {}
+[46.278583] (-) TimerEvent: {}
+[46.379015] (-) TimerEvent: {}
+[46.479407] (-) TimerEvent: {}
+[46.579788] (-) TimerEvent: {}
+[46.680118] (-) TimerEvent: {}
+[46.780462] (-) TimerEvent: {}
+[46.880814] (-) TimerEvent: {}
+[46.981184] (-) TimerEvent: {}
+[47.081591] (-) TimerEvent: {}
+[47.181917] (-) TimerEvent: {}
+[47.282209] (-) TimerEvent: {}
+[47.382579] (-) TimerEvent: {}
+[47.482874] (-) TimerEvent: {}
+[47.583200] (-) TimerEvent: {}
+[47.683537] (-) TimerEvent: {}
+[47.783836] (-) TimerEvent: {}
+[47.884155] (-) TimerEvent: {}
+[47.984464] (-) TimerEvent: {}
+[48.084923] (-) TimerEvent: {}
+[48.185279] (-) TimerEvent: {}
+[48.285655] (-) TimerEvent: {}
+[48.385999] (-) TimerEvent: {}
+[48.486399] (-) TimerEvent: {}
+[48.586841] (-) TimerEvent: {}
+[48.687508] (-) TimerEvent: {}
+[48.787840] (-) TimerEvent: {}
+[48.888180] (-) TimerEvent: {}
+[48.988546] (-) TimerEvent: {}
+[49.089008] (-) TimerEvent: {}
+[49.189326] (-) TimerEvent: {}
+[49.289733] (-) TimerEvent: {}
+[49.390125] (-) TimerEvent: {}
+[49.490506] (-) TimerEvent: {}
+[49.590920] (-) TimerEvent: {}
+[49.691299] (-) TimerEvent: {}
+[49.791681] (-) TimerEvent: {}
+[49.892015] (-) TimerEvent: {}
+[49.992335] (-) TimerEvent: {}
+[50.092725] (-) TimerEvent: {}
+[50.193081] (-) TimerEvent: {}
+[50.293447] (-) TimerEvent: {}
+[50.393752] (-) TimerEvent: {}
+[50.494208] (-) TimerEvent: {}
+[50.594646] (-) TimerEvent: {}
+[50.694985] (-) TimerEvent: {}
+[50.795372] (-) TimerEvent: {}
+[50.895799] (-) TimerEvent: {}
+[50.996127] (-) TimerEvent: {}
+[51.096611] (-) TimerEvent: {}
+[51.197223] (-) TimerEvent: {}
+[51.297914] (-) TimerEvent: {}
+[51.398227] (-) TimerEvent: {}
+[51.498650] (-) TimerEvent: {}
+[51.599063] (-) TimerEvent: {}
+[51.699449] (-) TimerEvent: {}
+[51.799846] (-) TimerEvent: {}
+[51.820789] (search_map) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable search_map\x1b[0m\n'}
+[51.822276] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/search_map.dir/link.txt --verbose=1\n'}
+[51.834607] (search_map) StdoutLine: {'line': b'/usr/bin/c++ CMakeFiles/search_map.dir/src/Main.cpp.o -o search_map  -Wl,-rpath,/opt/ros/humble/lib:/home/tuan/CPP/build/search_map /opt/ros/humble/lib/libmap_server_core.so /opt/ros/humble/lib/libmap_io.so /opt/ros/humble/lib/libcomponent_manager.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0 /opt/ros/humble/lib/libnav2_util_core.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2.so /opt/ros/humble/lib/libtf2_ros.so /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librclcpp_action.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/librcl_lifecycle.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcutils.so -ldl /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/librclcpp_lifecycle.so /opt/ros/humble/lib/libbondcpp.so /opt/ros/humble/lib/libbond__rosidl_generator_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbond__rosidl_generator_py.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /usr/lib/x86_64-linux-gnu/libpython3.10.so libsearch_map_package.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so /usr/lib/x86_64-linux-gnu/libtinyxml2.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libmap_server_core.so /opt/ros/humble/lib/libmap_io.so /opt/ros/humble/lib/libcomponent_manager.so /opt/ros/humble/lib/libclass_loader.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0 /opt/ros/humble/lib/libnav2_util_core.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2.so /opt/ros/humble/lib/libtf2_ros.so /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so /usr/lib/x86_64-linux-gnu/liborocos-kdl.so /opt/ros/humble/lib/libtf2_ros.so /opt/ros/humble/lib/libmessage_filters.so /opt/ros/humble/lib/librclcpp_action.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtf2.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librclcpp_action.so /opt/ros/humble/lib/librcl_action.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/librcl_lifecycle.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcutils.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/librclcpp_lifecycle.so /opt/ros/humble/lib/librcl_lifecycle.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbondcpp.so /opt/ros/humble/lib/libbond__rosidl_generator_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_c.so /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbond__rosidl_generator_py.so /opt/ros/humble/lib/libbond__rosidl_typesupport_c.so /opt/ros/humble/lib/libbond__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl /usr/lib/x86_64-linux-gnu/libpython3.10.so /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0 /usr/lib/x86_64-linux-gnu/libunwind.so /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread \n'}
+[51.899992] (-) TimerEvent: {}
+[52.000550] (-) TimerEvent: {}
+[52.100988] (-) TimerEvent: {}
+[52.201762] (-) TimerEvent: {}
+[52.302211] (-) TimerEvent: {}
+[52.402979] (-) TimerEvent: {}
+[52.503424] (-) TimerEvent: {}
+[52.603887] (-) TimerEvent: {}
+[52.704345] (-) TimerEvent: {}
+[52.804803] (-) TimerEvent: {}
+[52.905306] (-) TimerEvent: {}
+[53.005757] (-) TimerEvent: {}
+[53.106366] (-) TimerEvent: {}
+[53.207322] (-) TimerEvent: {}
+[53.307984] (-) TimerEvent: {}
+[53.408466] (-) TimerEvent: {}
+[53.508988] (-) TimerEvent: {}
+[53.609498] (-) TimerEvent: {}
+[53.710055] (-) TimerEvent: {}
+[53.810383] (-) TimerEvent: {}
+[53.818333] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[53.832463] (search_map) StdoutLine: {'line': b'[100%] Built target search_map\n'}
+[53.834211] (search_map) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[53.834505] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles 0\n'}
+[53.852276] (search_map) CommandEnded: {'returncode': 0}
+[53.907662] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'install'}
+[53.910483] (-) TimerEvent: {}
+[53.923955] (search_map) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuan/CPP/build/search_map'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1046'), ('SYSTEMD_EXEC_PID', '1232'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3780'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:32906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1205,unix/tuan:/tmp/.ICE-unix/1205'), ('INVOCATION_ID', '7c3067ce427140259a25ac3a20a8c880'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1DXLN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:2c7af90a-e393-4d26-8127-abcb6e1fc645'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[53.936940] (search_map) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.937864] (search_map) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[53.938490] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/libsearch_map_package.so\n'}
+[53.939501] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/a_start.hpp\n'}
+[53.939853] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/dijkstra.hpp\n'}
+[53.940147] (search_map) StdoutLine: {'line': b'-- Symlinking: /home/tuan/CPP/install/search_map/include//algorithm/rrt_start.hpp\n'}
+[53.953737] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm_base.hpp\n'}
+[53.954126] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//data_interface.hpp\n'}
+[53.954404] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/geometry_utils.hpp\n'}
+[53.954678] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/map_utils.hpp\n'}
+[53.954916] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/math_utils.hpp\n'}
+[53.955199] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/search_utils.hpp\n'}
+[53.955634] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/search_map/search_map\n'}
+[53.956294] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//launch/search_map.launch.py\n'}
+[53.956790] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//param/param.yaml\n'}
+[53.957256] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.pgm\n'}
+[53.957516] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.yaml\n'}
+[53.957837] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//search_algorithm_lib.xml\n'}
+[53.958298] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/package_run_dependencies/search_map\n'}
+[53.958698] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/parent_prefix_path/search_map\n'}
+[53.959113] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.sh\n'}
+[53.959536] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.dsv\n'}
+[53.959928] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.sh\n'}
+[53.960292] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.dsv\n'}
+[53.960632] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.bash\n'}
+[53.960936] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.sh\n'}
+[53.961194] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.zsh\n'}
+[53.961422] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.dsv\n'}
+[53.961612] (search_map) StdoutLine: {'line': b'-- Symlinking: /home/tuan/CPP/install/search_map/share/search_map/package.dsv\n'}
+[53.975334] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/packages/search_map\n'}
+[53.975660] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/search_map__pluginlib__plugin/search_map\n'}
+[53.975900] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig.cmake\n'}
+[53.976271] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig-version.cmake\n'}
+[53.976497] (search_map) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/package.xml\n'}
+[53.981582] (search_map) CommandEnded: {'returncode': 0}
+[54.010970] (-) TimerEvent: {}
+[54.097814] (search_map) JobEnded: {'identifier': 'search_map', 'rc': 0}
+[54.099133] (-) EventReactorShutdown: {}

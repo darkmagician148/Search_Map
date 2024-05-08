@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/tuan/CPP/build/SORT': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT
+[0.026s] -- Configuring done
+[0.027s] [31mCMake Error at CMakeLists.txt:10 (add_executable):
+[0.027s]   Cannot find source file:
+[0.027s] 
+[0.027s]     map_cell.cpp
+[0.028s] 
+[0.028s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.028s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.028s] 
+[0.028s] [0m
+[0.028s] [31mCMake Error at CMakeLists.txt:10 (add_executable):
+[0.029s]   No SOURCES given to target: map_cell
+[0.029s] 
+[0.029s] [0m
+[0.029s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.030s] Invoked command in '/home/tuan/CPP/build/SORT' returned '1': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT

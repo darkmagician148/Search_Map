@@ -1,0 +1,56 @@
+[0.014s] Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[0.027s] /usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0
+[0.048s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.250s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.708s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.771s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.773s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.104s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.123s] -- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)
+[1.802s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.804s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.055s] -- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)
+[10.699s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.833s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.833s] -- Configured cppcheck include dirs: /home/tuan/CPP/include
+[10.833s] -- Configured cppcheck exclude dirs and/or files: 
+[10.839s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.849s] -- Added test 'lint_cmake' to check CMake code style
+[10.854s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.892s] -- Added test 'uncrustify' to check C / C++ code style
+[10.892s] -- Configured uncrustify additional arguments: 
+[10.898s] -- Added test 'xmllint' to check XML markup files
+[10.899s] -- Configuring done
+[11.017s] -- Generating done
+[11.021s] -- Build files have been written to: /home/tuan/CPP/build/search_map
+[11.031s] /usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks
+[11.042s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[11.043s] gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'
+[11.043s] /usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend
+[11.047s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[11.047s] cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=
+[11.058s] [35m[1mConsolidate compiler generated dependencies of target search_map_package[0m
+[11.069s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[11.069s] /usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build
+[11.077s] gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[11.089s] [ 20%] [32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o[0m
+[11.091s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -c /home/tuan/CPP/src/alogrithm/dijkstra.cpp
+[11.343s] In file included from [01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1[m[K:
+[11.343s] [01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Koccupancy_grid__struct.hpp: No such file or directory
+[11.343s]     8 | #include [01;31m[K<occupancy_grid__struct.hpp>[m[K
+[11.343s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.343s] compilation terminated.
+[11.354s] gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1
+[11.354s] gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[11.355s] gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'
+[11.355s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+[11.355s] gmake: *** [Makefile:149: all] Error 2
+[11.357s] Invoked command in '/home/tuan/CPP/build/search_map' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8

@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[0.036s] /usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0
+[0.068s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.264s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.279s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.333s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.340s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.352s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.766s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.954s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.085s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.714s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.741s] -- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)
+[2.682s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.684s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.036s] -- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)
+[14.800s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.900s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[14.901s]   ament_package_xml() package name 'search_map' in '/package.xml' does not
+[14.901s]   match current PROJECT_NAME 'dijkstra'.  You must call project() with the
+[14.901s]   same package name before.
+[14.901s] Call Stack (most recent call first):
+[14.901s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[14.901s]   CMakeLists.txt:89 (ament_lint_auto_find_test_dependencies)
+[14.902s] 
+[14.902s] [0m
+[14.902s] -- Configuring incomplete, errors occurred!
+[14.902s] See also "/home/tuan/CPP/build/search_map/CMakeFiles/CMakeOutput.log".
+[14.914s] gmake: *** [Makefile:338: cmake_check_build_system] Error 1
+[14.917s] Invoked command in '/home/tuan/CPP/build/search_map' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8

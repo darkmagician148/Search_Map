@@ -1,0 +1,57 @@
+/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'
+/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=
+[35m[1mConsolidate compiler generated dependencies of target search_map_package[0m
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+[ 14%] [32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o[0m
+/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/visualization_msgs -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o -c /home/tuan/CPP/src/alogrithm/a_start.cpp
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/string:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/tuan/CPP/include/algorithm/a_start.hpp:3[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = search_map::a_start::AStart; _Args = {}; _Tp = search_map::a_start::AStart][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = search_map::a_start::AStart; _Args = {}; _Tp = search_map::a_start::AStart; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<search_map::a_start::AStart>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = search_map::a_start::AStart; _Alloc = std::allocator<search_map::a_start::AStart>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = search_map::a_start::AStart; _Alloc = std::allocator<search_map::a_start::AStart>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<search_map::a_start::AStart>; _Args = {}; _Tp = search_map::a_start::AStart; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<search_map::a_start::AStart>; _Args = {}; _Tp = search_map::a_start::AStart][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = search_map::a_start::AStart; _Alloc = std::allocator<search_map::a_start::AStart>; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = search_map::a_start::AStart; _Args = {}][m[K’
+[01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:9:40:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksearch_map::a_start::AStart::AStart()[m[K’ is private within this context
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:1[m[K:
+[01m[K/home/tuan/CPP/include/algorithm/a_start.hpp:36:22:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |             explicit [01;36m[KAStart[m[K();
+      |                      [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:203[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = search_map::a_start::AStart; B = search_map::AlgorithmBase][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksearch_map::a_start::AStart::AStart()[m[K’ is private within this context
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/tuan/CPP/src/alogrithm/a_start.cpp:1[m[K:
+[01m[K/home/tuan/CPP/include/algorithm/a_start.hpp:36:22:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |             explicit [01;36m[KAStart[m[K();
+      |                      [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:107: CMakeFiles/search_map_package.dir/src/alogrithm/a_start.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'
+gmake: *** [Makefile:149: all] Error 2

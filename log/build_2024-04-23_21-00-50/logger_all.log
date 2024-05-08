@@ -1,0 +1,112 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0511ef0d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0511ef07f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0511ef07f0>>)
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.432s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tuan/CPP'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'search_map'
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tuan/CPP/install
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'search_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'search_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tuan/CPP/build/search_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tuan/CPP/install/search_map', 'merge_install': False, 'path': '/home/tuan/CPP', 'symlink_install': True, 'test_result_base': None}
+[0.580s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tuan/CPP' with build type 'ament_cmake'
+[0.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tuan/CPP'
+[0.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[11.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+[11.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map
+[11.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(search_map)
+[11.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map
+[11.694s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map' for CMake module files
+[11.694s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map' for CMake config files
+[11.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('search_map', 'cmake_prefix_path')
+[11.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.ps1'
+[11.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.dsv'
+[11.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.sh'
+[11.699s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib'
+[11.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('search_map', 'ld_library_path_lib')
+[11.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.ps1'
+[11.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.dsv'
+[11.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.sh'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/bin'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib/pkgconfig/search_map.pc'
+[11.702s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib/python3.10/site-packages'
+[11.702s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/bin'
+[11.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.ps1'
+[11.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuan/CPP/install/search_map/share/search_map/package.dsv'
+[11.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.sh'
+[11.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.bash'
+[11.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.zsh'
+[11.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuan/CPP/install/search_map/share/colcon-core/packages/search_map)
+[11.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(search_map)
+[11.760s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map' for CMake module files
+[11.761s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map' for CMake config files
+[11.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('search_map', 'cmake_prefix_path')
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.ps1'
+[11.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.dsv'
+[11.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/cmake_prefix_path.sh'
+[11.764s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib'
+[11.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('search_map', 'ld_library_path_lib')
+[11.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.ps1'
+[11.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.dsv'
+[11.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuan/CPP/install/search_map/share/search_map/hook/ld_library_path_lib.sh'
+[11.766s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/bin'
+[11.766s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib/pkgconfig/search_map.pc'
+[11.767s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/lib/python3.10/site-packages'
+[11.767s] Level 1:colcon.colcon_core.environment:checking '/home/tuan/CPP/install/search_map/bin'
+[11.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.ps1'
+[11.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuan/CPP/install/search_map/share/search_map/package.dsv'
+[11.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.sh'
+[11.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.bash'
+[11.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuan/CPP/install/search_map/share/search_map/package.zsh'
+[11.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuan/CPP/install/search_map/share/colcon-core/packages/search_map)
+[11.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.775s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.785s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.805s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuan/CPP/install/local_setup.ps1'
+[11.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tuan/CPP/install/_local_setup_util_ps1.py'
+[11.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuan/CPP/install/setup.ps1'
+[11.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuan/CPP/install/local_setup.sh'
+[11.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tuan/CPP/install/_local_setup_util_sh.py'
+[11.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuan/CPP/install/setup.sh'
+[11.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuan/CPP/install/local_setup.bash'
+[11.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuan/CPP/install/setup.bash'
+[11.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuan/CPP/install/local_setup.zsh'
+[11.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuan/CPP/install/setup.zsh'

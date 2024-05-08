@@ -1,0 +1,9 @@
+/usr/bin/ld: libsearch_map_package.so: undefined reference to `vtable for search_map::AlgorithmBase'
+/usr/bin/ld: libsearch_map_package.so: undefined reference to `search_map::AlgorithmBase::~AlgorithmBase()'
+/usr/bin/ld: libsearch_map_package.so: undefined reference to `search_map::dijkstra::DijkstraCell::~DijkstraCell()'
+/usr/bin/ld: libsearch_map_package.so: undefined reference to `typeinfo for search_map::AlgorithmBase'
+/usr/bin/ld: libsearch_map_package.so: undefined reference to `search_map::dijkstra::Dijkstra::fromGoalToPath(unsigned long const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/search_map.dir/build.make:471: search_map] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/search_map.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

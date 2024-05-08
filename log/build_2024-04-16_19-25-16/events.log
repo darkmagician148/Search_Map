@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (search_map) JobQueued: {'identifier': 'search_map', 'dependencies': OrderedDict()}
+[0.000292] (search_map) JobStarted: {'identifier': 'search_map'}
+[0.010967] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'cmake'}
+[0.012283] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'build'}
+[0.013408] (search_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuan/CPP/build/search_map', '--', '-j8', '-l8'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1038'), ('SYSTEMD_EXEC_PID', '1531'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2029'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:28441'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1196,unix/tuan:/tmp/.ICE-unix/1196'), ('INVOCATION_ID', 'b584dcef341a424596fd49d28327ab71'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IGTDM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:639b3a01-6671-4ef3-adcd-d9fc285cf3c1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032325] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.052852] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks\n'}
+[0.064496] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.066045] (search_map) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.066265] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend\n'}
+[0.072450] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.072928] (search_map) StdoutLine: {'line': b'cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=\n'}
+[0.088152] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[0.088645] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build\n'}
+[0.099113] (-) TimerEvent: {}
+[0.105814] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.116377] (search_map) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/data_interface.cpp.o\x1b[0m\n'}
+[0.116790] (search_map) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o\x1b[0m\n'}
+[0.117621] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/data_interface.cpp.o -MF CMakeFiles/search_map_package.dir/src/data_interface.cpp.o.d -o CMakeFiles/search_map_package.dir/src/data_interface.cpp.o -c /home/tuan/CPP/src/data_interface.cpp\n'}
+[0.118211] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -c /home/tuan/CPP/src/alogrithm/dijkstra.cpp\n'}
+[0.199225] (-) TimerEvent: {}
+[0.299593] (-) TimerEvent: {}
+[0.400139] (-) TimerEvent: {}
+[0.500520] (-) TimerEvent: {}
+[0.600911] (-) TimerEvent: {}
+[0.701370] (-) TimerEvent: {}
+[0.801969] (-) TimerEvent: {}
+[0.902554] (-) TimerEvent: {}
+[1.003025] (-) TimerEvent: {}
+[1.103613] (-) TimerEvent: {}
+[1.204309] (-) TimerEvent: {}
+[1.304868] (-) TimerEvent: {}
+[1.405478] (-) TimerEvent: {}
+[1.506191] (-) TimerEvent: {}
+[1.606592] (-) TimerEvent: {}
+[1.706996] (-) TimerEvent: {}
+[1.807360] (-) TimerEvent: {}
+[1.907659] (-) TimerEvent: {}
+[2.008012] (-) TimerEvent: {}
+[2.108323] (-) TimerEvent: {}
+[2.208770] (-) TimerEvent: {}
+[2.309118] (-) TimerEvent: {}
+[2.409483] (-) TimerEvent: {}
+[2.509830] (-) TimerEvent: {}
+[2.610246] (-) TimerEvent: {}
+[2.710687] (-) TimerEvent: {}
+[2.811040] (-) TimerEvent: {}
+[2.911421] (-) TimerEvent: {}
+[3.011778] (-) TimerEvent: {}
+[3.112136] (-) TimerEvent: {}
+[3.212605] (-) TimerEvent: {}
+[3.312987] (-) TimerEvent: {}
+[3.413386] (-) TimerEvent: {}
+[3.513841] (-) TimerEvent: {}
+[3.614170] (-) TimerEvent: {}
+[3.714515] (-) TimerEvent: {}
+[3.814876] (-) TimerEvent: {}
+[3.915194] (-) TimerEvent: {}
+[4.015514] (-) TimerEvent: {}
+[4.115966] (-) TimerEvent: {}
+[4.216363] (-) TimerEvent: {}
+[4.282847] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:57:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Ksearch_map::dijkstra::Dijkstra::~Dijkstra()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.283127] (search_map) StderrLine: {'line': b'   57 |     \x1b[01;31m\x1b[KDijkstra\x1b[m\x1b[K::~Dijkstra(){}\n'}
+[4.283281] (search_map) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.283421] (search_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1\x1b[m\x1b[K:\n'}
+[4.283558] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:44:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual search_map::dijkstra::Dijkstra::~Dijkstra()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[4.283781] (search_map) StderrLine: {'line': b'   44 |     \x1b[01;36m\x1b[K~\x1b[m\x1b[KDijkstra(){};\n'}
+[4.283923] (search_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.285709] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void search_map::dijkstra::Dijkstra::setMap(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.285905] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:69:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.286076] (search_map) StderrLine: {'line': b'   69 |         for(int i = 0; \x1b[01;35m\x1b[Ki < grid->data.size()\x1b[m\x1b[K; i ++){\n'}
+[4.286231] (search_map) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.316461] (-) TimerEvent: {}
+[4.416845] (-) TimerEvent: {}
+[4.517216] (-) TimerEvent: {}
+[4.617615] (-) TimerEvent: {}
+[4.717971] (-) TimerEvent: {}
+[4.818364] (-) TimerEvent: {}
+[4.918728] (-) TimerEvent: {}
+[5.019106] (-) TimerEvent: {}
+[5.104297] (search_map) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1\n'}
+[5.104469] (search_map) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[5.119255] (-) TimerEvent: {}
+[5.219606] (-) TimerEvent: {}
+[5.319898] (-) TimerEvent: {}
+[5.420263] (-) TimerEvent: {}
+[5.520587] (-) TimerEvent: {}
+[5.620980] (-) TimerEvent: {}
+[5.721253] (-) TimerEvent: {}
+[5.821637] (-) TimerEvent: {}
+[5.922037] (-) TimerEvent: {}
+[6.022484] (-) TimerEvent: {}
+[6.122784] (-) TimerEvent: {}
+[6.223170] (-) TimerEvent: {}
+[6.323490] (-) TimerEvent: {}
+[6.423835] (-) TimerEvent: {}
+[6.524180] (-) TimerEvent: {}
+[6.624523] (-) TimerEvent: {}
+[6.724871] (-) TimerEvent: {}
+[6.825230] (-) TimerEvent: {}
+[6.925581] (-) TimerEvent: {}
+[7.025856] (-) TimerEvent: {}
+[7.126158] (-) TimerEvent: {}
+[7.226538] (-) TimerEvent: {}
+[7.326838] (-) TimerEvent: {}
+[7.427108] (-) TimerEvent: {}
+[7.527408] (-) TimerEvent: {}
+[7.627713] (-) TimerEvent: {}
+[7.728019] (-) TimerEvent: {}
+[7.828330] (-) TimerEvent: {}
+[7.928636] (-) TimerEvent: {}
+[8.028964] (-) TimerEvent: {}
+[8.129270] (-) TimerEvent: {}
+[8.229566] (-) TimerEvent: {}
+[8.329820] (-) TimerEvent: {}
+[8.430144] (-) TimerEvent: {}
+[8.530392] (-) TimerEvent: {}
+[8.630684] (-) TimerEvent: {}
+[8.730994] (-) TimerEvent: {}
+[8.831310] (-) TimerEvent: {}
+[8.931619] (-) TimerEvent: {}
+[9.031926] (-) TimerEvent: {}
+[9.132244] (-) TimerEvent: {}
+[9.232556] (-) TimerEvent: {}
+[9.333067] (-) TimerEvent: {}
+[9.433391] (-) TimerEvent: {}
+[9.533721] (-) TimerEvent: {}
+[9.634027] (-) TimerEvent: {}
+[9.734332] (-) TimerEvent: {}
+[9.834609] (-) TimerEvent: {}
+[9.934961] (-) TimerEvent: {}
+[10.035252] (-) TimerEvent: {}
+[10.135565] (-) TimerEvent: {}
+[10.235862] (-) TimerEvent: {}
+[10.336190] (-) TimerEvent: {}
+[10.436527] (-) TimerEvent: {}
+[10.536879] (-) TimerEvent: {}
+[10.637153] (-) TimerEvent: {}
+[10.737462] (-) TimerEvent: {}
+[10.837816] (-) TimerEvent: {}
+[10.938157] (-) TimerEvent: {}
+[11.038488] (-) TimerEvent: {}
+[11.138877] (-) TimerEvent: {}
+[11.239204] (-) TimerEvent: {}
+[11.339543] (-) TimerEvent: {}
+[11.439878] (-) TimerEvent: {}
+[11.540221] (-) TimerEvent: {}
+[11.640604] (-) TimerEvent: {}
+[11.741014] (-) TimerEvent: {}
+[11.841416] (-) TimerEvent: {}
+[11.941720] (-) TimerEvent: {}
+[12.041980] (-) TimerEvent: {}
+[12.142295] (-) TimerEvent: {}
+[12.242610] (-) TimerEvent: {}
+[12.342921] (-) TimerEvent: {}
+[12.443193] (-) TimerEvent: {}
+[12.543569] (-) TimerEvent: {}
+[12.643897] (-) TimerEvent: {}
+[12.744278] (-) TimerEvent: {}
+[12.844597] (-) TimerEvent: {}
+[12.944994] (-) TimerEvent: {}
+[13.045385] (-) TimerEvent: {}
+[13.145755] (-) TimerEvent: {}
+[13.246094] (-) TimerEvent: {}
+[13.346508] (-) TimerEvent: {}
+[13.446913] (-) TimerEvent: {}
+[13.547312] (-) TimerEvent: {}
+[13.647624] (-) TimerEvent: {}
+[13.747883] (-) TimerEvent: {}
+[13.848161] (-) TimerEvent: {}
+[13.948439] (-) TimerEvent: {}
+[14.048736] (-) TimerEvent: {}
+[14.148986] (-) TimerEvent: {}
+[14.249238] (-) TimerEvent: {}
+[14.349552] (-) TimerEvent: {}
+[14.449871] (-) TimerEvent: {}
+[14.550173] (-) TimerEvent: {}
+[14.650503] (-) TimerEvent: {}
+[14.750828] (-) TimerEvent: {}
+[14.851135] (-) TimerEvent: {}
+[14.951468] (-) TimerEvent: {}
+[15.051792] (-) TimerEvent: {}
+[15.152105] (-) TimerEvent: {}
+[15.252426] (-) TimerEvent: {}
+[15.352746] (-) TimerEvent: {}
+[15.453063] (-) TimerEvent: {}
+[15.553412] (-) TimerEvent: {}
+[15.653751] (-) TimerEvent: {}
+[15.754052] (-) TimerEvent: {}
+[15.854369] (-) TimerEvent: {}
+[15.954673] (-) TimerEvent: {}
+[16.054988] (-) TimerEvent: {}
+[16.155309] (-) TimerEvent: {}
+[16.255612] (-) TimerEvent: {}
+[16.355908] (-) TimerEvent: {}
+[16.456214] (-) TimerEvent: {}
+[16.556522] (-) TimerEvent: {}
+[16.656835] (-) TimerEvent: {}
+[16.757137] (-) TimerEvent: {}
+[16.857486] (-) TimerEvent: {}
+[16.957801] (-) TimerEvent: {}
+[17.058128] (-) TimerEvent: {}
+[17.158468] (-) TimerEvent: {}
+[17.258781] (-) TimerEvent: {}
+[17.359025] (-) TimerEvent: {}
+[17.459339] (-) TimerEvent: {}
+[17.559600] (-) TimerEvent: {}
+[17.659858] (-) TimerEvent: {}
+[17.760150] (-) TimerEvent: {}
+[17.860537] (-) TimerEvent: {}
+[17.960890] (-) TimerEvent: {}
+[18.061244] (-) TimerEvent: {}
+[18.161561] (-) TimerEvent: {}
+[18.261929] (-) TimerEvent: {}
+[18.362276] (-) TimerEvent: {}
+[18.462826] (-) TimerEvent: {}
+[18.563129] (-) TimerEvent: {}
+[18.663419] (-) TimerEvent: {}
+[18.763780] (-) TimerEvent: {}
+[18.864258] (-) TimerEvent: {}
+[18.964549] (-) TimerEvent: {}
+[19.064943] (-) TimerEvent: {}
+[19.165222] (-) TimerEvent: {}
+[19.265564] (-) TimerEvent: {}
+[19.365890] (-) TimerEvent: {}
+[19.466179] (-) TimerEvent: {}
+[19.566460] (-) TimerEvent: {}
+[19.666752] (-) TimerEvent: {}
+[19.767025] (-) TimerEvent: {}
+[19.867273] (-) TimerEvent: {}
+[19.967580] (-) TimerEvent: {}
+[20.067851] (-) TimerEvent: {}
+[20.168142] (-) TimerEvent: {}
+[20.268528] (-) TimerEvent: {}
+[20.368915] (-) TimerEvent: {}
+[20.469203] (-) TimerEvent: {}
+[20.569637] (-) TimerEvent: {}
+[20.670140] (-) TimerEvent: {}
+[20.770604] (-) TimerEvent: {}
+[20.871125] (-) TimerEvent: {}
+[20.971486] (-) TimerEvent: {}
+[21.071860] (-) TimerEvent: {}
+[21.172183] (-) TimerEvent: {}
+[21.272560] (-) TimerEvent: {}
+[21.372943] (-) TimerEvent: {}
+[21.473303] (-) TimerEvent: {}
+[21.573603] (-) TimerEvent: {}
+[21.673966] (-) TimerEvent: {}
+[21.774254] (-) TimerEvent: {}
+[21.874571] (-) TimerEvent: {}
+[21.974881] (-) TimerEvent: {}
+[22.075182] (-) TimerEvent: {}
+[22.175479] (-) TimerEvent: {}
+[22.275791] (-) TimerEvent: {}
+[22.376185] (-) TimerEvent: {}
+[22.476682] (-) TimerEvent: {}
+[22.577030] (-) TimerEvent: {}
+[22.677345] (-) TimerEvent: {}
+[22.777839] (-) TimerEvent: {}
+[22.878174] (-) TimerEvent: {}
+[22.978597] (-) TimerEvent: {}
+[23.079135] (-) TimerEvent: {}
+[23.179443] (-) TimerEvent: {}
+[23.279779] (-) TimerEvent: {}
+[23.380077] (-) TimerEvent: {}
+[23.480465] (-) TimerEvent: {}
+[23.580776] (-) TimerEvent: {}
+[23.681142] (-) TimerEvent: {}
+[23.781451] (-) TimerEvent: {}
+[23.881757] (-) TimerEvent: {}
+[23.982066] (-) TimerEvent: {}
+[24.082405] (-) TimerEvent: {}
+[24.182849] (-) TimerEvent: {}
+[24.283155] (-) TimerEvent: {}
+[24.383488] (-) TimerEvent: {}
+[24.483824] (-) TimerEvent: {}
+[24.584163] (-) TimerEvent: {}
+[24.684467] (-) TimerEvent: {}
+[24.742808] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[24.743166] (search_map) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2\n'}
+[24.743328] (search_map) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[24.743523] (search_map) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[24.746408] (search_map) CommandEnded: {'returncode': 2}
+[24.784613] (-) TimerEvent: {}
+[24.797565] (search_map) JobEnded: {'identifier': 'search_map', 'rc': 2}
+[24.808378] (-) EventReactorShutdown: {}

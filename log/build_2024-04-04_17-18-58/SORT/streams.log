@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/tuan/CPP/build/SORT': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT
+[0.287s] -- The C compiler identification is GNU 11.4.0
+[0.450s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.573s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.574s] -- Detecting C compile features
+[0.575s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.707s] -- Detecting CXX compiler ABI info - done
+[0.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.718s] -- Detecting CXX compile features
+[0.719s] -- Detecting CXX compile features - done
+[0.719s] -- Configuring done
+[0.720s] [31mCMake Error at CMakeLists.txt:3 (add_executable):
+[0.721s]   Cannot find source file:
+[0.721s] 
+[0.721s]     map_cell.cpp
+[0.721s] 
+[0.721s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.721s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.721s] 
+[0.721s] [0m
+[0.721s] [31mCMake Error at CMakeLists.txt:3 (add_executable):
+[0.721s]   No SOURCES given to target: map_cell
+[0.721s] 
+[0.722s] [0m
+[0.722s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.724s] Invoked command in '/home/tuan/CPP/build/SORT' returned '1': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT

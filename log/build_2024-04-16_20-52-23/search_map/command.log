@@ -1,0 +1,4 @@
+Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuan/CPP/build/search_map -- -j8 -l8
+Invoking command in '/home/tuan/CPP/build/search_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map
+Invoked command in '/home/tuan/CPP/build/search_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuan/CPP/build/search_map

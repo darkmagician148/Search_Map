@@ -1,0 +1,16 @@
+<library path="search_map_package">
+    <class name="dijkstra"
+        type="search_map::dijkstra::Dijkstra"
+        base_class_type="search_map::AlgorithmBase">
+        <description>
+            Plugin command for Dijkstra
+        </description>
+    </class>
+    <class name="a_start"
+        type="search_map::a_start::AStart"
+        base_class_type="search_map::AlgorithmBase">
+        <description>
+            Plugin command for A_start
+        </description>
+    </class>
+</library>

@@ -1,0 +1,14 @@
+In file included from [01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1[m[K:
+[01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:47:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Ksearch_map::dijkstra::Dijkstra::[m[K’ on member ‘[01m[KfinishTable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 |     void [01;31m[KDijkstra[m[K::finishTable(const uint64_t& start_key);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:48:26:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Ksearch_map::dijkstra::Dijkstra::[m[K’ on member ‘[01m[KfromGoalToPath[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 |     nav_msgs::msg::Path* [01;31m[KDijkstra[m[K::fromGoalToPath(const uint64_t& goal_key);
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:[m[K In member function ‘[01m[Kvirtual void search_map::dijkstra::Dijkstra::setMap(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:69:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   69 |         for(int i = 0; [01;35m[Ki < grid->data.size()[m[K; i ++){
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

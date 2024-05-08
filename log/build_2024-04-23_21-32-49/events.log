@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (search_map) JobQueued: {'identifier': 'search_map', 'dependencies': OrderedDict()}
+[0.000724] (search_map) JobStarted: {'identifier': 'search_map'}
+[0.014654] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'cmake'}
+[0.016019] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'build'}
+[0.017692] (search_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuan/CPP/build/search_map', '--', '-j8', '-l8'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1016'), ('SYSTEMD_EXEC_PID', '1221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1847'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:21275'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1180,unix/tuan:/tmp/.ICE-unix/1180'), ('INVOCATION_ID', 'f32c7c4fbf7440bf97e560510e9d5c2f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G5FYM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:890b00b9-9e3b-426d-99f8-95f36bb6a1ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037997] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.064281] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks\n'}
+[0.079039] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.080754] (search_map) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.081023] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend\n'}
+[0.088021] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.088298] (search_map) StdoutLine: {'line': b'cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=\n'}
+[0.099137] (-) TimerEvent: {}
+[0.102329] (search_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target search_map_package\x1b[0m\n'}
+[0.119621] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[0.120082] (search_map) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build\n'}
+[0.135452] (search_map) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'\n"}
+[0.152977] (search_map) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o\x1b[0m\n'}
+[0.154981] (search_map) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="" -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -Dsearch_map_package_EXPORTS -I/home/tuan/CPP/include -I/opt/ros/humble/include -I/opt/ros/humble/include/tf2_geometry_msgs -I/opt/ros/humble/include/rclcpp_lifecycle -I/opt/ros/humble/include/rclcpp_components -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/pluginlib -isystem /opt/ros/humble/include/nav2_msgs -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/lifecycle_msgs -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/bond -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include/rcl_lifecycle -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -MF CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o.d -o CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o -c /home/tuan/CPP/src/alogrithm/dijkstra.cpp\n'}
+[0.199698] (-) TimerEvent: {}
+[0.300153] (-) TimerEvent: {}
+[0.400619] (-) TimerEvent: {}
+[0.501066] (-) TimerEvent: {}
+[0.601350] (-) TimerEvent: {}
+[0.701706] (-) TimerEvent: {}
+[0.802100] (-) TimerEvent: {}
+[0.902509] (-) TimerEvent: {}
+[1.002896] (-) TimerEvent: {}
+[1.103248] (-) TimerEvent: {}
+[1.203604] (-) TimerEvent: {}
+[1.304072] (-) TimerEvent: {}
+[1.404556] (-) TimerEvent: {}
+[1.505224] (-) TimerEvent: {}
+[1.605581] (-) TimerEvent: {}
+[1.706014] (-) TimerEvent: {}
+[1.806361] (-) TimerEvent: {}
+[1.906720] (-) TimerEvent: {}
+[2.007047] (-) TimerEvent: {}
+[2.107380] (-) TimerEvent: {}
+[2.207837] (-) TimerEvent: {}
+[2.308227] (-) TimerEvent: {}
+[2.408663] (-) TimerEvent: {}
+[2.508998] (-) TimerEvent: {}
+[2.609403] (-) TimerEvent: {}
+[2.709768] (-) TimerEvent: {}
+[2.810106] (-) TimerEvent: {}
+[2.910498] (-) TimerEvent: {}
+[3.010819] (-) TimerEvent: {}
+[3.111351] (-) TimerEvent: {}
+[3.211828] (-) TimerEvent: {}
+[3.312186] (-) TimerEvent: {}
+[3.412525] (-) TimerEvent: {}
+[3.512877] (-) TimerEvent: {}
+[3.613284] (-) TimerEvent: {}
+[3.713693] (-) TimerEvent: {}
+[3.814066] (-) TimerEvent: {}
+[3.914453] (-) TimerEvent: {}
+[4.014858] (-) TimerEvent: {}
+[4.115244] (-) TimerEvent: {}
+[4.215614] (-) TimerEvent: {}
+[4.315996] (-) TimerEvent: {}
+[4.416382] (-) TimerEvent: {}
+[4.516797] (-) TimerEvent: {}
+[4.548169] (search_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.548412] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.548518] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.548651] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.548746] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.548843] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.549076] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.549176] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.549265] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.549355] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.549443] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.549578] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/include/algorithm_base.hpp:7\x1b[m\x1b[K,\n'}
+[4.549674] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:8\x1b[m\x1b[K,\n'}
+[4.549764] (search_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1\x1b[m\x1b[K:\n'}
+[4.549853] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid search_map::dijkstra::Dijkstra::updatePointAroud(search_map::dijkstra::DijkstraCell::SharedPtr&, std::vector<long unsigned int>&, uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.549945] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:111:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.550045] (search_map) StderrLine: {'line': b'  111 |         RCLCPP_ERROR(node_->get_logger(), \x1b[01;35m\x1b[K"%d"\x1b[m\x1b[K, \x1b[32m\x1b[Khash_cell.size()\x1b[m\x1b[K);\n'}
+[4.550135] (search_map) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.550223] (search_map) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.550310] (search_map) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kstd::vector<long unsigned int>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.550544] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:111:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.550697] (search_map) StderrLine: {'line': b'  111 |         RCLCPP_ERROR(node_->get_logger(), "\x1b[01;36m\x1b[K%d\x1b[m\x1b[K", hash_cell.size());\n'}
+[4.550858] (search_map) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.551047] (search_map) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.551220] (search_map) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.551354] (search_map) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.551528] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid search_map::dijkstra::Dijkstra::finishTable(const uint64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.551685] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:119:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kauto start_key\x1b[m\x1b[K\xe2\x80\x99 shadows a parameter\n'}
+[4.551849] (search_map) StderrLine: {'line': b'  119 |         auto \x1b[01;31m\x1b[Kstart_key\x1b[m\x1b[K = start_cell->getHash();\n'}
+[4.552006] (search_map) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.552168] (search_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:113:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst uint64_t& start_key\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[4.552351] (search_map) StderrLine: {'line': b'  113 |     void Dijkstra::finishTable(\x1b[01;36m\x1b[Kconst uint64_t& start_key\x1b[m\x1b[K){\n'}
+[4.552545] (search_map) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.616947] (-) TimerEvent: {}
+[4.717296] (-) TimerEvent: {}
+[4.817646] (-) TimerEvent: {}
+[4.918031] (-) TimerEvent: {}
+[5.018353] (-) TimerEvent: {}
+[5.118708] (-) TimerEvent: {}
+[5.219077] (-) TimerEvent: {}
+[5.319446] (-) TimerEvent: {}
+[5.419809] (-) TimerEvent: {}
+[5.436901] (search_map) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1\n'}
+[5.437330] (search_map) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2\n'}
+[5.437616] (search_map) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[5.437873] (search_map) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[5.438083] (search_map) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'\n"}
+[5.440527] (search_map) CommandEnded: {'returncode': 2}
+[5.505886] (search_map) JobEnded: {'identifier': 'search_map', 'rc': 2}
+[5.516820] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:[m[K In member function ‘[01m[Kvoid search_map::dijkstra::Dijkstra::finishTable(const uint64_t&)[m[K’:
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:121:52:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Logger::Logger(const string&)[m[K’ is private within this context
+  121 |         rclcpp::Logger("_____________1____________"[01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tuan/CPP/include/algorithm_base.hpp:7[m[K,
+                 from [01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:8[m[K,
+                 from [01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:121:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+  121 |   explicit [01;36m[KLogger[m[K(const std::string & name)
+      |            [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

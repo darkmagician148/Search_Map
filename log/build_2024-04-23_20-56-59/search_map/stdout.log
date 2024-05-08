@@ -1,0 +1,59 @@
+/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles /home/tuan/CPP/build/search_map//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/tuan/CPP/build/search_map'
+/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/depend
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map_package.dir/DependInfo.cmake --color=
+[35m[1mConsolidate compiler generated dependencies of target search_map_package[0m
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+/usr/bin/gmake  -f CMakeFiles/search_map_package.dir/build.make CMakeFiles/search_map_package.dir/build
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+gmake[2]: Nothing to be done for 'CMakeFiles/search_map_package.dir/build'.
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[ 60%] Built target search_map_package
+/usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/depend
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+cd /home/tuan/CPP/build/search_map && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/tuan/CPP /home/tuan/CPP /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map /home/tuan/CPP/build/search_map/CMakeFiles/search_map.dir/DependInfo.cmake --color=
+[35m[1mConsolidate compiler generated dependencies of target search_map[0m
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+/usr/bin/gmake  -f CMakeFiles/search_map.dir/build.make CMakeFiles/search_map.dir/build
+gmake[2]: Entering directory '/home/tuan/CPP/build/search_map'
+gmake[2]: Nothing to be done for 'CMakeFiles/search_map.dir/build'.
+gmake[2]: Leaving directory '/home/tuan/CPP/build/search_map'
+[100%] Built target search_map
+gmake[1]: Leaving directory '/home/tuan/CPP/build/search_map'
+/usr/bin/cmake -E cmake_progress_start /home/tuan/CPP/build/search_map/CMakeFiles 0
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/libsearch_map_package.so
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/a_start.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm/dijkstra.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//algorithm_base.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//data_interface.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/geometry_utils.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/map_utils.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/math_utils.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/include//utils/search_utils.hpp
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/lib/search_map/search_map
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//launch/search_map.launch.py
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//param/param.yaml
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.pgm
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//map/map.yaml
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map//search_algorithm_lib.xml
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/package_run_dependencies/search_map
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/parent_prefix_path/search_map
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.sh
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/environment/path.dsv
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.bash
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.sh
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.zsh
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/local_setup.dsv
+-- Symlinking: /home/tuan/CPP/install/search_map/share/search_map/package.dsv
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/packages/search_map
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/ament_index/resource_index/search_map__pluginlib__plugin/search_map
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig.cmake
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/cmake/search_mapConfig-version.cmake
+-- Up-to-date symlink: /home/tuan/CPP/install/search_map/share/search_map/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/home/tuan/CPP/build/SORT': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT
+Invoked command in '/home/tuan/CPP/build/SORT' returned '1': /usr/bin/cmake /home/tuan/CPP/src -DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/SORT

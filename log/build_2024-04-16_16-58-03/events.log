@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (search_map) JobQueued: {'identifier': 'search_map', 'dependencies': OrderedDict()}
+[0.000454] (search_map) JobStarted: {'identifier': 'search_map'}
+[0.009281] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'cmake'}
+[0.009539] (search_map) Command: {'cmd': ['/usr/bin/cmake', '/home/tuan/CPP', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tuan/CPP/install/search_map'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1038'), ('SYSTEMD_EXEC_PID', '1531'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2029'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:28441'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1196,unix/tuan:/tmp/.ICE-unix/1196'), ('INVOCATION_ID', 'b584dcef341a424596fd49d28327ab71'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IGTDM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:83582d4c-ab3e-4477-9909-92fc5c374ab2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099672] (-) TimerEvent: {}
+[0.200367] (-) TimerEvent: {}
+[0.252683] (search_map) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300511] (-) TimerEvent: {}
+[0.400953] (-) TimerEvent: {}
+[0.408789] (search_map) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.424600] (search_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501095] (-) TimerEvent: {}
+[0.519755] (search_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.530486] (search_map) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.531178] (search_map) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.533609] (search_map) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.539232] (search_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601277] (-) TimerEvent: {}
+[0.666593] (search_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.678548] (search_map) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.678957] (search_map) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.679812] (search_map) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.692896] (search_map) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701416] (-) TimerEvent: {}
+[0.801742] (-) TimerEvent: {}
+[0.872578] (search_map) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901864] (-) TimerEvent: {}
+[0.976833] (search_map) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.001985] (-) TimerEvent: {}
+[1.028153] (search_map) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.094584] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.102192] (-) TimerEvent: {}
+[1.107784] (search_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.128038] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.152836] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.188580] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202317] (-) TimerEvent: {}
+[1.302666] (-) TimerEvent: {}
+[1.402966] (-) TimerEvent: {}
+[1.466659] (search_map) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.503105] (-) TimerEvent: {}
+[1.570328] (search_map) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.603218] (-) TimerEvent: {}
+[1.659013] (search_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.665780] (search_map) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703372] (-) TimerEvent: {}
+[1.803647] (-) TimerEvent: {}
+[1.804055] (search_map) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.839679] (search_map) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.897432] (search_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.903741] (-) TimerEvent: {}
+[1.914195] (search_map) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.002635] (search_map) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.002875] (search_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.003838] (-) TimerEvent: {}
+[2.091987] (search_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.093317] (search_map) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.103985] (-) TimerEvent: {}
+[2.204324] (-) TimerEvent: {}
+[2.304673] (-) TimerEvent: {}
+[2.310554] (search_map) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.356284] (search_map) StdoutLine: {'line': b'-- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[2.404784] (-) TimerEvent: {}
+[2.505113] (-) TimerEvent: {}
+[2.605436] (-) TimerEvent: {}
+[2.705725] (-) TimerEvent: {}
+[2.806054] (-) TimerEvent: {}
+[2.906341] (-) TimerEvent: {}
+[3.006668] (-) TimerEvent: {}
+[3.107140] (-) TimerEvent: {}
+[3.113612] (search_map) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.116782] (search_map) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.117132] (search_map) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.207268] (-) TimerEvent: {}
+[3.307635] (-) TimerEvent: {}
+[3.403358] (search_map) StdoutLine: {'line': b'-- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)\n'}
+[3.407755] (-) TimerEvent: {}
+[3.507992] (-) TimerEvent: {}
+[3.608296] (-) TimerEvent: {}
+[3.708602] (-) TimerEvent: {}
+[3.808909] (-) TimerEvent: {}
+[3.909207] (-) TimerEvent: {}
+[4.009491] (-) TimerEvent: {}
+[4.109804] (-) TimerEvent: {}
+[4.210122] (-) TimerEvent: {}
+[4.310436] (-) TimerEvent: {}
+[4.410686] (-) TimerEvent: {}
+[4.511032] (-) TimerEvent: {}
+[4.611463] (-) TimerEvent: {}
+[4.712058] (-) TimerEvent: {}
+[4.812363] (-) TimerEvent: {}
+[4.912659] (-) TimerEvent: {}
+[5.012935] (-) TimerEvent: {}
+[5.113279] (-) TimerEvent: {}
+[5.213616] (-) TimerEvent: {}
+[5.313909] (-) TimerEvent: {}
+[5.414224] (-) TimerEvent: {}
+[5.514489] (-) TimerEvent: {}
+[5.614816] (-) TimerEvent: {}
+[5.715053] (-) TimerEvent: {}
+[5.815401] (-) TimerEvent: {}
+[5.915673] (-) TimerEvent: {}
+[6.015951] (-) TimerEvent: {}
+[6.116229] (-) TimerEvent: {}
+[6.216507] (-) TimerEvent: {}
+[6.316753] (-) TimerEvent: {}
+[6.417103] (-) TimerEvent: {}
+[6.517393] (-) TimerEvent: {}
+[6.617663] (-) TimerEvent: {}
+[6.717976] (-) TimerEvent: {}
+[6.818281] (-) TimerEvent: {}
+[6.918517] (-) TimerEvent: {}
+[7.018879] (-) TimerEvent: {}
+[7.119189] (-) TimerEvent: {}
+[7.219470] (-) TimerEvent: {}
+[7.319786] (-) TimerEvent: {}
+[7.420135] (-) TimerEvent: {}
+[7.520450] (-) TimerEvent: {}
+[7.620772] (-) TimerEvent: {}
+[7.721096] (-) TimerEvent: {}
+[7.821401] (-) TimerEvent: {}
+[7.921641] (-) TimerEvent: {}
+[8.021913] (-) TimerEvent: {}
+[8.122229] (-) TimerEvent: {}
+[8.222584] (-) TimerEvent: {}
+[8.322898] (-) TimerEvent: {}
+[8.423171] (-) TimerEvent: {}
+[8.523456] (-) TimerEvent: {}
+[8.623688] (-) TimerEvent: {}
+[8.724001] (-) TimerEvent: {}
+[8.824325] (-) TimerEvent: {}
+[8.924554] (-) TimerEvent: {}
+[9.024870] (-) TimerEvent: {}
+[9.125160] (-) TimerEvent: {}
+[9.225465] (-) TimerEvent: {}
+[9.325802] (-) TimerEvent: {}
+[9.426088] (-) TimerEvent: {}
+[9.526363] (-) TimerEvent: {}
+[9.626676] (-) TimerEvent: {}
+[9.726981] (-) TimerEvent: {}
+[9.827279] (-) TimerEvent: {}
+[9.927564] (-) TimerEvent: {}
+[10.027888] (-) TimerEvent: {}
+[10.128142] (-) TimerEvent: {}
+[10.228381] (-) TimerEvent: {}
+[10.328706] (-) TimerEvent: {}
+[10.429029] (-) TimerEvent: {}
+[10.529346] (-) TimerEvent: {}
+[10.579403] (search_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.585366] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[10.585617] (search_map) StderrLine: {'line': b'  Cannot find source file:\n'}
+[10.585757] (search_map) StderrLine: {'line': b'\n'}
+[10.585893] (search_map) StderrLine: {'line': b'    src/data_interface.cpp\n'}
+[10.586019] (search_map) StderrLine: {'line': b'\n'}
+[10.586149] (search_map) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[10.586274] (search_map) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[10.586403] (search_map) StderrLine: {'line': b'\n'}
+[10.586590] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[10.589812] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:50 (add_executable):\n'}
+[10.590000] (search_map) StderrLine: {'line': b'  Cannot find source file:\n'}
+[10.590125] (search_map) StderrLine: {'line': b'\n'}
+[10.590250] (search_map) StderrLine: {'line': b'    src/main.cpp\n'}
+[10.590371] (search_map) StderrLine: {'line': b'\n'}
+[10.590493] (search_map) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[10.590620] (search_map) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[10.590739] (search_map) StderrLine: {'line': b'\n'}
+[10.590855] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[10.593219] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[10.593387] (search_map) StderrLine: {'line': b'  No SOURCES given to target: search_map_package\n'}
+[10.593500] (search_map) StderrLine: {'line': b'\n'}
+[10.593607] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[10.593713] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:50 (add_executable):\n'}
+[10.593839] (search_map) StderrLine: {'line': b'  No SOURCES given to target: search_map\n'}
+[10.593947] (search_map) StderrLine: {'line': b'\n'}
+[10.594066] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[10.594194] (search_map) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[10.605794] (search_map) CommandEnded: {'returncode': 1}
+[10.629521] (-) TimerEvent: {}
+[10.654947] (search_map) JobEnded: {'identifier': 'search_map', 'rc': 1}
+[10.665936] (-) EventReactorShutdown: {}

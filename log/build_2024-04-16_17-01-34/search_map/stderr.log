@@ -1,0 +1,13 @@
+[01m[K/home/tuan/CPP/src/src/data_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdata_interface.hpp: No such file or directory
+    1 | #include [01;31m[K"data_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/tuan/CPP/src/src/alogrithm/dijkstra.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/algorithm/dijkstra.hpp: No such file or directory
+    1 | #include [01;31m[K"include/algorithm/dijkstra.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:79: CMakeFiles/search_map_package.dir/src/src/data_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/src/alogrithm/dijkstra.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

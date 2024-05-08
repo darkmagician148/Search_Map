@@ -1,0 +1,15 @@
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:57:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ksearch_map::dijkstra::Dijkstra::~Dijkstra()[m[K’
+   57 |     [01;31m[KDijkstra[m[K::~Dijkstra(){}
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1[m[K:
+[01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:44:5:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual search_map::dijkstra::Dijkstra::~Dijkstra()[m[K’ previously defined here
+   44 |     [01;36m[K~[m[KDijkstra(){};
+      |     [01;36m[K^[m[K
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:[m[K In member function ‘[01m[Kvirtual void search_map::dijkstra::Dijkstra::setMap(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:69:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   69 |         for(int i = 0; [01;35m[Ki < grid->data.size()[m[K; i ++){
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

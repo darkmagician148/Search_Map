@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (search_map) JobQueued: {'identifier': 'search_map', 'dependencies': OrderedDict()}
+[0.000842] (search_map) JobStarted: {'identifier': 'search_map'}
+[0.011440] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'cmake'}
+[0.012426] (search_map) JobProgress: {'identifier': 'search_map', 'progress': 'build'}
+[0.014020] (search_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuan/CPP/build/search_map', '--', '-j8', '-l8'], 'cwd': '/home/tuan/CPP/build/search_map', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tuan/CPP/install/search_map/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tuan'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1062'), ('SYSTEMD_EXEC_PID', '1250'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3875'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tuan/CPP/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuan'), ('JOURNAL_STREAM', '8:28611'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuan:@/tmp/.ICE-unix/1203,unix/tuan:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', 'c6ddbd40670f43e29f365aee3db14cf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WUKMN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f924245dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/tuan/CPP/install/search_map:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:729dad75-7a61-4304-8880-84f4a56b2687'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuan/CPP/build/search_map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tuan/CPP/install/search_map:/opt/ros/humble')]), 'shell': False}
+[0.030892] (search_map) StdoutLine: {'line': b'/usr/bin/cmake -S/home/tuan/CPP -B/home/tuan/CPP/build/search_map --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.070253] (search_map) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099531] (-) TimerEvent: {}
+[0.199907] (-) TimerEvent: {}
+[0.298334] (search_map) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299984] (-) TimerEvent: {}
+[0.329287] (search_map) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.381817] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.387194] (search_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400121] (-) TimerEvent: {}
+[0.400727] (search_map) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.429734] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.466074] (search_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500223] (-) TimerEvent: {}
+[0.600565] (-) TimerEvent: {}
+[0.700906] (-) TimerEvent: {}
+[0.801255] (-) TimerEvent: {}
+[0.871952] (search_map) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.901359] (-) TimerEvent: {}
+[1.001697] (-) TimerEvent: {}
+[1.042072] (search_map) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101818] (-) TimerEvent: {}
+[1.143390] (search_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.147849] (search_map) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201910] (-) TimerEvent: {}
+[1.302219] (-) TimerEvent: {}
+[1.364618] (search_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.402323] (-) TimerEvent: {}
+[1.502746] (-) TimerEvent: {}
+[1.603327] (-) TimerEvent: {}
+[1.619628] (search_map) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.654658] (search_map) StdoutLine: {'line': b'-- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.703672] (-) TimerEvent: {}
+[1.804070] (-) TimerEvent: {}
+[1.904457] (-) TimerEvent: {}
+[2.004857] (-) TimerEvent: {}
+[2.105438] (-) TimerEvent: {}
+[2.205823] (-) TimerEvent: {}
+[2.306262] (-) TimerEvent: {}
+[2.406550] (-) TimerEvent: {}
+[2.506876] (-) TimerEvent: {}
+[2.514001] (search_map) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.516802] (search_map) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.607048] (-) TimerEvent: {}
+[2.707384] (-) TimerEvent: {}
+[2.807741] (-) TimerEvent: {}
+[2.899812] (search_map) StdoutLine: {'line': b'-- Found nav2_map_server: 1.1.13 (/opt/ros/humble/share/nav2_map_server/cmake)\n'}
+[2.907917] (-) TimerEvent: {}
+[3.008557] (-) TimerEvent: {}
+[3.108859] (-) TimerEvent: {}
+[3.209139] (-) TimerEvent: {}
+[3.309436] (-) TimerEvent: {}
+[3.409716] (-) TimerEvent: {}
+[3.510071] (-) TimerEvent: {}
+[3.610356] (-) TimerEvent: {}
+[3.710689] (-) TimerEvent: {}
+[3.811062] (-) TimerEvent: {}
+[3.911312] (-) TimerEvent: {}
+[4.011668] (-) TimerEvent: {}
+[4.111952] (-) TimerEvent: {}
+[4.212310] (-) TimerEvent: {}
+[4.312633] (-) TimerEvent: {}
+[4.383983] (search_map) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.412776] (-) TimerEvent: {}
+[4.513051] (-) TimerEvent: {}
+[4.613406] (-) TimerEvent: {}
+[4.714005] (-) TimerEvent: {}
+[4.814393] (-) TimerEvent: {}
+[4.914730] (-) TimerEvent: {}
+[5.015068] (-) TimerEvent: {}
+[5.115318] (-) TimerEvent: {}
+[5.215596] (-) TimerEvent: {}
+[5.315892] (-) TimerEvent: {}
+[5.416175] (-) TimerEvent: {}
+[5.516482] (-) TimerEvent: {}
+[5.616794] (-) TimerEvent: {}
+[5.717098] (-) TimerEvent: {}
+[5.817367] (-) TimerEvent: {}
+[5.917779] (-) TimerEvent: {}
+[6.018061] (-) TimerEvent: {}
+[6.118293] (-) TimerEvent: {}
+[6.218578] (-) TimerEvent: {}
+[6.318864] (-) TimerEvent: {}
+[6.419158] (-) TimerEvent: {}
+[6.519440] (-) TimerEvent: {}
+[6.619700] (-) TimerEvent: {}
+[6.720012] (-) TimerEvent: {}
+[6.820273] (-) TimerEvent: {}
+[6.920558] (-) TimerEvent: {}
+[7.020861] (-) TimerEvent: {}
+[7.121167] (-) TimerEvent: {}
+[7.221495] (-) TimerEvent: {}
+[7.321872] (-) TimerEvent: {}
+[7.422233] (-) TimerEvent: {}
+[7.522990] (-) TimerEvent: {}
+[7.623306] (-) TimerEvent: {}
+[7.723616] (-) TimerEvent: {}
+[7.824081] (-) TimerEvent: {}
+[7.924576] (-) TimerEvent: {}
+[8.024929] (-) TimerEvent: {}
+[8.125316] (-) TimerEvent: {}
+[8.225634] (-) TimerEvent: {}
+[8.326013] (-) TimerEvent: {}
+[8.426488] (-) TimerEvent: {}
+[8.527342] (-) TimerEvent: {}
+[8.627779] (-) TimerEvent: {}
+[8.728280] (-) TimerEvent: {}
+[8.828659] (-) TimerEvent: {}
+[8.929026] (-) TimerEvent: {}
+[9.029334] (-) TimerEvent: {}
+[9.129626] (-) TimerEvent: {}
+[9.229971] (-) TimerEvent: {}
+[9.330281] (-) TimerEvent: {}
+[9.430802] (-) TimerEvent: {}
+[9.531120] (-) TimerEvent: {}
+[9.631448] (-) TimerEvent: {}
+[9.731886] (-) TimerEvent: {}
+[9.832241] (-) TimerEvent: {}
+[9.932693] (-) TimerEvent: {}
+[10.033068] (-) TimerEvent: {}
+[10.133405] (-) TimerEvent: {}
+[10.233736] (-) TimerEvent: {}
+[10.334077] (-) TimerEvent: {}
+[10.434415] (-) TimerEvent: {}
+[10.534715] (-) TimerEvent: {}
+[10.635052] (-) TimerEvent: {}
+[10.735308] (-) TimerEvent: {}
+[10.835563] (-) TimerEvent: {}
+[10.935886] (-) TimerEvent: {}
+[11.036208] (-) TimerEvent: {}
+[11.136526] (-) TimerEvent: {}
+[11.236793] (-) TimerEvent: {}
+[11.337114] (-) TimerEvent: {}
+[11.437376] (-) TimerEvent: {}
+[11.537678] (-) TimerEvent: {}
+[11.638006] (-) TimerEvent: {}
+[11.738314] (-) TimerEvent: {}
+[11.838622] (-) TimerEvent: {}
+[11.938949] (-) TimerEvent: {}
+[12.039216] (-) TimerEvent: {}
+[12.139519] (-) TimerEvent: {}
+[12.239842] (-) TimerEvent: {}
+[12.340187] (-) TimerEvent: {}
+[12.440488] (-) TimerEvent: {}
+[12.540838] (-) TimerEvent: {}
+[12.641151] (-) TimerEvent: {}
+[12.741469] (-) TimerEvent: {}
+[12.841827] (-) TimerEvent: {}
+[12.942205] (-) TimerEvent: {}
+[13.042502] (-) TimerEvent: {}
+[13.142797] (-) TimerEvent: {}
+[13.243087] (-) TimerEvent: {}
+[13.288303] (search_map) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.343187] (-) TimerEvent: {}
+[13.443546] (-) TimerEvent: {}
+[13.536414] (search_map) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.537626] (search_map) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tuan/CPP/include\n'}
+[13.537899] (search_map) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.543655] (-) TimerEvent: {}
+[13.548564] (search_map) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.572056] (search_map) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.586672] (search_map) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.643759] (-) TimerEvent: {}
+[13.659319] (search_map) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.659746] (search_map) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.671655] (search_map) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.674635] (search_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.681106] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (add_library):\n'}
+[13.681331] (search_map) StderrLine: {'line': b'  Cannot find source file:\n'}
+[13.681428] (search_map) StderrLine: {'line': b'\n'}
+[13.681516] (search_map) StderrLine: {'line': b'    src/algorithm/a_start.cpp\n'}
+[13.681600] (search_map) StderrLine: {'line': b'\n'}
+[13.681683] (search_map) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[13.681769] (search_map) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[13.681852] (search_map) StderrLine: {'line': b'\n'}
+[13.681935] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[13.690874] (search_map) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (add_library):\n'}
+[13.691158] (search_map) StderrLine: {'line': b'  No SOURCES given to target: search_map_package\n'}
+[13.691286] (search_map) StderrLine: {'line': b'\n'}
+[13.691430] (search_map) StderrLine: {'line': b'\x1b[0m\n'}
+[13.691519] (search_map) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[13.702097] (search_map) StderrLine: {'line': b'gmake: *** [Makefile:365: cmake_check_build_system] Error 1\n'}
+[13.704459] (search_map) CommandEnded: {'returncode': 2}
+[13.743838] (-) TimerEvent: {}
+[13.766946] (search_map) JobEnded: {'identifier': 'search_map', 'rc': 2}
+[13.777563] (-) EventReactorShutdown: {}

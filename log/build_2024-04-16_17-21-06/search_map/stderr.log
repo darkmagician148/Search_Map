@@ -1,0 +1,8 @@
+In file included from [01m[K/home/tuan/CPP/src/alogrithm/dijkstra.cpp:1[m[K:
+[01m[K/home/tuan/CPP/include/algorithm/dijkstra.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Koccupancy_grid__struct.hpp: No such file or directory
+    8 | #include [01;31m[K<occupancy_grid__struct.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/search_map_package.dir/build.make:93: CMakeFiles/search_map_package.dir/src/alogrithm/dijkstra.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/search_map_package.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

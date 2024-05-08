@@ -1,0 +1,4 @@
+search_map:
+  ros__parameters:
+    algorithm: A_start
+    map_file: /home/tuan/CPP/map/map.yaml
